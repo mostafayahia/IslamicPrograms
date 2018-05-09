@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Yahia H. El-Tayeb
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">برامج دينية</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="live_the_moment">
+        <item>             — برنامج عيش اللحظة —</item>
+        <item>1 - البداية</item>
+        <item>2 - إرادة التغيير</item>
+        <item>3 - لحظة جرح</item>
+        <item>4 - لحظة قلق وتوتر</item>
+        <item>5 - لحظة شوق للمعصية</item>
+        <item>            6 - لحظة حب (بين الزوجين)</item>
+        <item>7 - لحظة أُنس باللَّه</item>
+        <item>8 - لحظة ندم</item>
+        <item>9 - لحظة فراق</item>
+        <item>10 - لحظة فرحة</item>
+        <item>11 - لحظة مرض</item>
+        <item>12 - لحظة ضعف الثقة</item>
+        <item>13 - لحظة هداية</item>
+        <item>14 - لحظة يأس</item>
+        <item>15 - لحظة حب لصديق</item>
+        <item>16 - لحظة تنازل</item>
+        <item>17 - لحظة إعجاب</item>
+        <item>18 - لحظة انفعال</item>
+        <item>19 - لحظة قهر ومذلة</item>
+        <item>20 - لحظة عمل خير</item>
+        <item>21 - لحظة حزن</item>
+        <item>22 - لحظة مواجهة</item>
+        <item>23 - لحظة مرض حبيب</item>
+        <item>            24 - لحظة إنفصال (طلاق)</item>
+        <item>25 - لحظة خوف</item>
+        <item>26 - لحظة إدراك</item>
+        <item>27 - لحظة حيرة</item>
+        <item>28 - لحظة غيرة</item>
+        <item>29 - لحظة فوز</item>
+    </string-array>
+    <string-array name="new_person">
+        <item>             — برنامج إنسان جديد —</item>
+        <item>1 - البداية</item>
+        <item>2 - التشدد</item>
+        <item>3 - سوء الظن</item>
+        <item>4 - الشك فى اللَّه</item>
+        <item>5 - الإحساس باليأس مع اللَّه</item>
+        <item>6 - اشتهاء ما فى أيدي الآخرين</item>
+        <item>7 - التسويف</item>
+        <item>8 - لعب دور الضحية</item>
+        <item>9 - العند</item>
+        <item>10 - تغييب العقل</item>
+        <item>11 - التفرد بالنجاح</item>
+        <item>12 - العشوائية</item>
+        <item>13 - عدم إكمال المهام</item>
+        <item>14 - الخوف من المواجهة</item>
+        <item>15 - عدم الإعتراف بالخطأ</item>
+        <item>16 - المبالغة فى إرضاء الخلق</item>
+        <item>17 - معصية السر</item>
+        <item>18 - مأساة العيش فى الماضي</item>
+        <item>19 - لفت الأنظار</item>
+        <item>20 - توقع الأسوأ</item>
+        <item>21 - الكراهية</item>
+        <item>22 - جلد الذات</item>
+        <item>23 - الخوض فى الأعراض</item>
+        <item>24 - مقاومة التغيير</item>
+        <item>25 - التسرع</item>
+        <item>26 - البحث عن الكمال</item>
+        <item>27 - الكسل والاعتمادية</item>
+        <item>28 - النقمة على الحياة</item>
+        <item>29 - إيقاظ الوعى</item>
+    </string-array>
+    <string-array name="think_2">
+        <item>             — فكَّر الموسم الثانى —</item>
+        <item>1 - شر ما قضيت</item>
+        <item>2 - المَلِك</item>
+        <item>3 - اللطيف</item>
+        <item>4 - الحرمان</item>
+        <item>5 - حياء الرحمن</item>
+        <item>6 - القهار</item>
+        <item>7 - آخر مرة تراهم</item>
+        <item>8 - عليم بحالك</item>
+        <item>9 - إهانة الفضيلة</item>
+        <item>10 - نفسية المكافح</item>
+        <item>11 - مفتاح قلب المرأة</item>
+        <item>12 - مفتاح قلب الرجل</item>
+        <item>13 - فرقتهم النعم</item>
+        <item>14 - أكبر إنجاز شغلك على نفسك</item>
+        <item>15 - مناعة الروح</item>
+        <item>16 - يا ليتنى</item>
+        <item>17 - الانسحاب الذكى</item>
+        <item>18 - بساطة الأقوياء</item>
+        <item>19 - كل شىء له ثمن</item>
+        <item>20 - أذية الناس</item>
+        <item>21 - الأسئلة المحرجة</item>
+        <item>22 - دمعتك غالية</item>
+        <item>23 - يتقلب ضده</item>
+        <item>24 - نجِّ نفسك</item>
+        <item>25 - العشم المَرضي</item>
+        <item>26 - صناعة البهجة</item>
+        <item>27 - الانتصار على الأنا</item>
+        <item>28 - كله خير</item>
+        <item>29 - أبناء الآخرة</item>
+        <item>30 - لا تفتح الباب</item>
+        <item>31 - رحمة عُمر</item>
+        <item>32 - أنا العدم بدونك</item>
+        <item>33 - يا أهل الجنة</item>
+        <item>34 - حتى تصنعك</item>
+        <item>35 - سارق الفرحة</item>
+        <item>36 - أنا مُعجب ببنت</item>
+        <item>37 - بالسلاسل على الجنة</item>
+        <item>38 - خطورة التجربة</item>
+        <item>39 - رحماء بينهم</item>
+        <item>40 - النمو أثناء البلاء</item>
+        <item>41 - هنا والآن</item>
+        <item>42 - سقف التوقعات</item>
+        <item>43 - المزاج المتقلب</item>
+        <item>44 - التعلُق المَرضي</item>
+        <item>45 - خافضةٌ رافعة</item>
+        <item>46 - ابكِ على اللى وقف حاله</item>
+        <item>47 - أدب لابد منه</item>
+        <item>48 - جذبات الحق</item>
+        <item>49 - قديم لكن بيلمع</item>
+        <item>50 - الحب بهدلة</item>
+        <item>51 - الفرصة المتخفية</item>
+        <item>52 - لا تيأس من نفسك</item>
+        <item>53 - اشتقت إلى ربى</item>
+        <item>54 - اللى يحسب الحسابات</item>
+        <item>55 - البدايات المشرقة</item>
+        <item>56 - أصحاب السبت</item>
+        <item>57 - تقديس الرحمن</item>
+        <item>58 - اليوم يومك</item>
+        <item>59 - صلاة الفجر</item>
+        <item>60 - ذنب مسيطر</item>
+        <item>61 - البُعد يزيد بعض الأشياء جمالاً</item>
+        <item>62 - رؤية النعمة</item>
+        <item>63 - سجن الأحزان</item>
+        <item>64 - رد فعل حكيم</item>
+        <item>65 - المبدأ والمصلحة</item>
+        <item>66 - راقي بأخلاقي</item>
+        <item>67 - قنبلة موقوتة</item>
+        <item>68 - هوِّن على نفسك</item>
+        <item>69 - العظمة فى الخطأ</item>
+        <item>70 - علامة النضج</item>
+        <item>71 - اللَّه نور السماوات والأرض</item>
+        <item>72 - الإنصاف</item>
+        <item>73 - الأدب مع اللَّه</item>
+        <item>74 - مناولة المسكين</item>
+        <item>75 - لست غريباً</item>
+        <item>76 - أخلاق الصالحين عند الفراق</item>
+        <item>77 - أسوأ ترميز</item>
+        <item>78 - ما أجملك يا اللَّه</item>
+        <item>79 - الوصول للقاع</item>
+    </string-array>
+
+    <!--
+        for (int i = 95; i < 181; i++)
+            System.out.println("<item>"+ i + " - " + "</item>");
+    -->
+    <string-array name="think">
+        <item>             — برنامج فكر —</item>
+        <item>1 - فكَّر</item>
+        <item>2 - ليست قيوداً</item>
+        <item>3 - المعلومة المُعطَّلة</item>
+        <item>4 - بعد المعصية</item>
+        <item>5 - الموسوعة الربانية</item>
+        <item>6 - إعاقة الإرادة</item>
+        <item>7 - احمي أفكارك</item>
+        <item>8 - روح لربنا مطمِّن</item>
+        <item>9 - الخلاف كشف الحقيقة</item>
+        <item>10 - كل نعمة منه كبيرة</item>
+        <item>11 - عتاب المحب</item>
+        <item>12 - حقيقة الجزاء</item>
+        <item>13 - الملكة</item>
+        <item>14 - المُهاجر</item>
+        <item>15 - اشكر أحزانك</item>
+        <item>16 - لا تضيع الودائع</item>
+        <item>17 - أطمن لحكمة ربنا</item>
+        <item>18 - اختار ربنا</item>
+        <item>19 - اللقاء الأول</item>
+        <item>20 - ماحى الحسنات</item>
+        <item>21 - اكتمال الشكر</item>
+        <item>22 - لا تسخر من أخيك</item>
+        <item>23 - يبكون ونضحك</item>
+        <item>24 - التوكل</item>
+        <item>25 - أسماء الجنة</item>
+        <item>26 - السهل المُغرى</item>
+        <item>27 - ظل اللَّه</item>
+        <item>28 - إفشاء الأسرار</item>
+        <item>29 - من الأرض للسماء</item>
+        <item>30 - الأُلفة</item>
+        <item>31 - سورة الفلق</item>
+        <item>32 - عبد اللَّه بن المبارك</item>
+        <item>33 - سر الشافعى</item>
+        <item>34 - الخلق النادر</item>
+        <item>35 - الآخرة جوه الدنيا</item>
+        <item>36 - الحسيب</item>
+        <item>37 - سورة الناس</item>
+        <item>38 - الخوف والرجاء</item>
+        <item>39 - فرق مهم</item>
+        <item>40 - القائد النبيل</item>
+        <item>41 - رحمة الإختلاف</item>
+        <item>42 - لا حول ولا قوة إلا باللَّه</item>
+        <item>43 - أنا كان فين عقلى</item>
+        <item>44 - مالك بن أنس</item>
+        <item>45 - سر النجاح</item>
+        <item>46 - تحويشة العمر</item>
+        <item>47 - الحكمة الخفية</item>
+        <item>48 - لا تستدعي المعاناة</item>
+        <item>49 - سورة الضحى</item>
+        <item>50 - حماس الأبطال</item>
+        <item>51 - أنواع الأصحاب</item>
+        <item>52 - ثابت كالجبل</item>
+        <item>53 - التقدير مفتاح القلوب</item>
+        <item>54 - فتنة العصر</item>
+        <item>55 - البركة فى الحب</item>
+        <item>56 - النميمة</item>
+        <item>57 - عبد تقي</item>
+        <item>58 - القلب السليم</item>
+        <item>59 - نفسية الأنبياء</item>
+        <item>60 - نداء المحب</item>
+        <item>61 - حاصر مشكلتك</item>
+        <item>62 - ثمن البدايات</item>
+        <item>63 - سحر التواضع</item>
+        <item>64 - الصبر عن اللَّه</item>
+        <item>65 - جبر خاطر المريض</item>
+        <item>66 - صباح ربانى</item>
+        <item>67 - دعاء سيدنا زكريا</item>
+        <item>68 - لا تُطفئ شعلتك</item>
+        <item>69 - كلماتك تبني حياتك</item>
+        <item>70 - من لا يرحم لا يُرحم</item>
+        <item>71 - السيدة خديجة</item>
+        <item>72 - متى نختار الصمت؟</item>
+        <item>73 - علامات الإعراض عن اللَّه</item>
+        <item>74 - لا تكتئب</item>
+        <item>75 - خليك صاحب واجب</item>
+        <item>76 - ما عند اللَّه باق</item>
+        <item>77 - يا ريتك ما جيت</item>
+        <item>78 - شرف الخدمة</item>
+        <item>79 - سورة الفجر</item>
+        <item>80 - مباحات الغيبة</item>
+        <item>81 - ليلة النصف من شعبان</item>
+        <item>82 - تعظيم الحرام</item>
+        <item>83 - الصيام</item>
+        <item>84 - سر السعادة</item>
+        <item>85 - البذرة</item>
+        <item>86 - سيطرة الخواطر</item>
+        <item>87 - صديق أبو حنيفة</item>
+        <item>88 - اختار مكانك</item>
+        <item>89 - حاسس بالبُعد</item>
+        <item>90 - الحشيش</item>
+        <item>91 - أولويات</item>
+        <item>92 - ماتريد وما تحتاج</item>
+        <item>93 - الإنفاق</item>
+        <item>94 - كلَّمهُ ربه</item>
+        <item>95 - السيدة فاطمة</item>
+        <item>96 - راجل بجد</item>
+        <item>97 - واتَّبع هواه</item>
+        <item>98 - الأمان الباقى</item>
+        <item>99 - الخشوع</item>
+        <item>100 - الاعتماد على العمل</item>
+        <item>101 - الاستكانة عند المحنة</item>
+        <item>102 - ليس انتقاماً</item>
+        <item>103 - قيام الليل</item>
+        <item>104 - الغذاء القاتل</item>
+        <item>105 - رؤية الخير</item>
+        <item>106 - المسئولية</item>
+        <item>107 - مؤشر الأداء</item>
+        <item>108 - الامتحان معروفـ</item>
+        <item>109 - لكل مجتهد نصيب</item>
+        <item>110 - أنا الأول</item>
+        <item>111 - سجن التبرير</item>
+        <item>112 - النية لا تكفى</item>
+        <item>113 - تعرف على محمد بن عبد اللَّه</item>
+        <item>114 - عيش بالفلوس</item>
+        <item>115 - ثبت الوتد</item>
+        <item>116 - دعوة الإمام أحمد</item>
+        <item>117 - لا تستهن</item>
+        <item>118 - كان من أسباب الثبات</item>
+        <item>119 - عبد مقصر ورب يعذر</item>
+        <item>120 - الشهود</item>
+        <item>121 - حنان الإله</item>
+        <item>122 - ضيف على الحياة</item>
+        <item>123 - تلقونه</item>
+        <item>124 - الستر</item>
+        <item>125 - سيدنا إبراهيم</item>
+        <item>126 - سعيد بن المسيب</item>
+        <item>127 - الإسراف</item>
+        <item>128 - عيون المؤمن</item>
+        <item>129 - الفاتحة</item>
+        <item>130 - أعظم آية</item>
+        <item>131 - صنائع المعروف</item>
+        <item>132 - سفيان الثورى</item>
+        <item>133 - مستشارك الملك</item>
+        <item>134 - الإخلاص</item>
+        <item>135 - هيقويك</item>
+        <item>136 - مفهوم الفتنة</item>
+        <item>137 - الكبائر</item>
+        <item>138 - قل هو اللَّه أحد</item>
+        <item>139 - أكتر من نفسك</item>
+        <item>140 - الرحمة فى كل مكان</item>
+        <item>141 - كن أنت</item>
+        <item>142 - ؚطوِّل نَفَسك</item>
+        <item>143 - تصبح على خير</item>
+        <item>144 - النصيحة الجارحة</item>
+        <item>145 - الطلاق</item>
+        <item>146 - تذكر الموت</item>
+        <item>147 - الجنة فى لحظة</item>
+        <item>148 - سجن التبرير</item>
+        <item>149 - حق نفسك عليك</item>
+        <item>150 - الانتصار الأكبر</item>
+        <item>151 - الملائكة</item>
+        <item>152 - لا يفتنك أحد</item>
+        <item>153 - بهجة النفوس</item>
+        <item>154 - رحلة جبر الخواطر</item>
+        <item>155 - مفيدة لكن منسية</item>
+        <item>156 - جمال النبى</item>
+        <item>157 - قطع العقد</item>
+        <item>158 - خواتيم سورة البقرة</item>
+        <item>159 - كراكيب</item>
+        <item>160 - القسوة</item>
+        <item>161 - إدراك الحكمة</item>
+        <item>162 - آلة الاعتبار</item>
+        <item>163 - بريء يا رب</item>
+        <item>164 - كبر نفسك</item>
+        <item>165 - نفسية الملائكة</item>
+        <item>166 - نعمة الألم</item>
+        <item>167 - أربعة أصناف</item>
+        <item>168 - تغيير الضمير</item>
+        <item>169 - أيها الفقير</item>
+        <item>170 - عمر بن عبد العزيز</item>
+        <item>171 - واحذروا</item>
+        <item>172 - اتعلم من الماضى</item>
+        <item>173 - التركيز والبطالة</item>
+        <item>174 - دكة الاحتياطى</item>
+        <item>175 - سر البركة</item>
+        <item>176 - معمولى عمل</item>
+        <item>177 - الكذب</item>
+        <item>178 - السم في الكلام</item>
+        <item>179 - دين الحب</item>
+        <item>180 - كاسر القلوب</item>
+    </string-array>
+    <string-array name="life_art">
+        <item>             — فن الحياة —</item>
+        <item>1 - رحلة الإرتقاء</item>
+        <item>2 - فن التعامل مع النساء</item>
+        <item>3 - فن التعامل مع الرجال</item>
+        <item>4 - فن التعافى من أثر الذنوب</item>
+        <item>5 - فن تجاوز الأحزان</item>
+        <item>6 - فن تذوق العبادة</item>
+        <item>7 - فن الوقفة مع النفس</item>
+        <item>8 - فن إحتيار شريك الحياة</item>
+        <item>9 - فن إصلاح القلوب</item>
+        <item>10 - فن التعلق برسول اللَّه (صلى اللَّه عليه وسلم)</item>
+        <item>11 - فن التميز</item>
+        <item>12 - فن إدارة العمر</item>
+        <item>13 - فن التعرف على اللَّه</item>
+        <item>14 - فن قيادة الشهوات</item>
+        <item>15 - فن إدارة الخلافـ</item>
+        <item>16 - فن التعامل مع القرآن</item>
+        <item>17 - فن إكرام الوالدين</item>
+        <item>18 - فن تربية الأبناء</item>
+        <item>19 - فن الحوار</item>
+        <item>20 - فن الفوز بليلة القدر</item>
+        <item>21 - فن إشعال الحماس</item>
+        <item>22 - فن بناء العقل</item>
+        <item>23 - فن الدعوة إلى اللَّه</item>
+        <item>24 - فن إسعاد الناس</item>
+        <item>25 - فن الوقاية من المخدرات</item>
+        <item>26 - فن استقبال النفحات</item>
+        <item>27 - فن الاستمتاع بالأكل</item>
+        <item>28 - فن القيادة</item>
+        <item>29 - فن الاسترخاء وتجديد النشاط</item>
+    </string-array>
+    <string-array name="message_from_god">
+        <item>             — رسالة من اللَّه —</item>
+        <item>1 - القرآن صاحب العمر</item>
+        <item>2 - رسالة إلى الحائر في ظلمة الاختبار</item>
+        <item>3 - رسالة إلى ظالم النساء</item>
+        <item>4 - رسالة إلى الزاهد فى الدعاء</item>
+        <item>5 - رسالة إلى متبع الشيطان</item>
+        <item>6 - رسالة إلى القريب من الزنا</item>
+        <item>7 - رسالة إلى الظالم</item>
+        <item>8 - رسالة إلى هاجر الصلاة</item>
+        <item>9 - رسالة إلى فاقد الرحمة</item>
+        <item>10 - رسالة إلى الغافل عن الآخرة </item>
+        <item>11 - رسالة إلى سليط اللسان</item>
+        <item>12 - رسالة إلى المتبع لهواه</item>
+        <item>13 - رسالة إلى الكاذب</item>
+        <item>14 - رسالة إلى المفسدين في الأرض</item>
+        <item>15 - رسالة عن الجنة</item>
+        <item>16 - رسالة إلى أهل الابتلاء</item>
+        <item>17 - رسالة إلى المستهين برضا اللَّه</item>
+        <item>18 - رسالة إلى الغافل عن الحمد</item>
+        <item>19 - رسالة عن رسول اللَّه</item>
+        <item>20 - رسالة إلى اليائس من رحمة اللَّه</item>
+        <item>21 - رسالة عن الحب</item>
+        <item>22 - رسالة عن الحساب</item>
+        <item>23 - رسالة إلى من يحاكم الخلق والخالق</item>
+        <item>24 - رسالة إلى الحقود</item>
+        <item>25 - رسالة إلى البخيل</item>
+        <item>26 - رسالة إلى المعرض عن هداية اللَّه</item>
+        <item>27 - رسالة إلى المتكبر</item>
+        <item>28 - رسالة إلى العقل</item>
+        <item>29 - رسالة إلى اللَّه</item>
+    </string-array>
+    
+        <string-array name="prophet_of_mercy">
+        <item>             — نبي الرحمة والتسامح —</item>
+        <item>1 - السيرة حياة</item>
+        <item>2 - نسب النبي</item>
+        <item>3 - قصة مولد وطفولة النبي</item>
+        <item>4 - مشاهد من شباب النبي</item>
+        <item>5 - النبي والسيدة خديجة</item>
+        <item>6 - أول أسبوع فى رسالة النبي</item>
+        <item>7 - أول 6 أشهر في رسالة النبي</item>
+        <item>8 - أول 3 سنوات فى رسالة النبي</item>
+        <item>9 - النبي يعلن الإسلام على جبل الصفا</item>
+        <item>10 - قريش تبدأ في إيذاء النبي </item>
+        <item>11 - قصة إسلام حمزة وعمر بن الخطاب</item>
+        <item>12 - قصة المفاوضات مع النبي</item>
+        <item>13 - الهجرة إلى الحبشة</item>
+        <item>14 - سيدنا جعفر يواجه ملك الحبشة</item>
+        <item>15 - الحصار في شعب بني طالب</item>
+        <item>16 - وفاة الحبيبة خديجة ورحلة الطائف</item>
+        <item>17 - رحلة الإسراء</item>
+        <item>18 - رحلة المعراج</item>
+        <item>19 - النبي والجهد الرهيب</item>
+        <item>20 - لقاء رائع للنبي مع بني شيبان</item>
+        <item>21 - النبي وأول لقاء مع الأنصار</item>
+        <item>22 - بيعة العقبة الثانية</item>
+        <item>23 - قصص هجرة الصحابة للمدينة</item>
+        <item>24 - هجرة النبي للمدينة</item>
+        <item>25 - عجائب تخطيط النبي للهجرة</item>
+        <item>26 - ليلة القدر</item>
+        <item>27 - المرأة فى حياة النبي</item>
+        <item>28 - النبي والإبداع</item>
+        <item>29 - بانوراما البرنامج</item>
+    </string-array>
+    
+    <string-array name="omar_series">
+        <item>             — مسلسل عمر —</item>
+        <item>مآثر عمر بن الخطاب رضى اللَّه عنه</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+        <item>الحلقة 7</item>
+        <item>الحلقة 8</item>
+        <item>الحلقة 9</item>
+        <item>الحلقة 10</item>
+        <item>الحلقة 11</item>
+        <item>الحلقة 12</item>
+        <item>الحلقة 13</item>
+        <item>الحلقة 14</item>
+        <item>الحلقة 15</item>
+        <item>الحلقة 16</item>
+        <item>الحلقة 17</item>
+        <item>الحلقة 18</item>
+        <item>الحلقة 19</item>
+        <item>الحلقة 20</item>
+        <item>الحلقة 21</item>
+        <item>الحلقة 22</item>
+        <item>الحلقة 23</item>
+        <item>الحلقة 24</item>
+        <item>الحلقة 25</item>
+        <item>الحلقة 26</item>
+        <item>الحلقة 27</item>
+        <item>الحلقة 28</item>
+        <item>الحلقة 29</item>
+        <item>الحلقة 30 (الحلقة الأخيرة)</item>
+    </string-array>
+
+    <!--
+    NOTE: the episode no 13 & 14 need family supervision
+    and these are actual items
+    
+        <item>13 - إلا المجاهرين 1 (إشراف عائلى)</item>
+        <item>14 - إلا المجاهرين 2 (إشراف عائلى)</item>
+    -->
+    <string-array name="reflections_10">
+        <item>             — خواطر 10 —</item>
+        <item>1 - اهدنا الصراط المستقيم</item>
+        <item>2 - معيشة ضنكا</item>
+        <item>3 - هوس الجمال</item>
+        <item>4 - رمضان برىء</item>
+        <item>5 - لبنة المجتمع</item>
+        <item>6 - الحرية المالية</item>
+        <item>7 - الأكل المزيف</item>
+        <item>8 - الوقف</item>
+        <item>9 - حتى اختلَّت عقولهم</item>
+        <item>10 - أرحنا بها يا بلال</item>
+        <item>11 - تجارة الموت</item>
+        <item>12 - حلول إبداعية</item>
+        <item>13 - </item>
+        <item>14 - </item>
+        <item>15 - إتحرك</item>
+        <item>16 - غلبة الدَّين</item>
+        <item>17 - الهوايات تهذب الهوى</item>
+        <item>18 - حلول فى الإسكان</item>
+        <item>19 - أرض العنصرية الرخوة</item>
+        <item>20 - أوَكٌلما اشتهيت..!</item>
+        <item>21 - رحلة خواطر</item>
+        <item>22 - تجارة منزلية</item>
+        <item>23 - عققته قبل أن يعٌقَّك</item>
+        <item>24 - مثلث الصحة</item>
+        <item>25 - رجس</item>
+        <item>26 - التوفير</item>
+        <item>27 - الشباب نعمة أم نقمة؟</item>
+        <item>28 - نماذج إيجابية</item>
+        <item>29 - توضيجات + خلف الكواليس</item>
+        <item>30 - سموم</item>
+    </string-array>
+    <string-array name="reflections_11">
+        <item>             — خواطر 11 —</item>
+        <item>1 - بسم اللَّه</item>
+        <item>2 - الحرية المالية 2</item>
+        <item>3 - اللاجئين</item>
+        <item>4 - تكتيكات زوجية</item>
+        <item>5 - نختلف ويبقى الود</item>
+        <item>6 - حلول فى المرور</item>
+        <item>7 - بلاش مهلبية</item>
+        <item>8 - ابتسامة الحرية</item>
+        <item>9 - انت مراقب</item>
+        <item>10 - فيروس التطوع</item>
+        <item>11 - الفرج من العشوائيات</item>
+        <item>12 - الأكل المهدر</item>
+        <item>13 - ممكن_بالتدريب</item>
+        <item>14 - حفظ نعمة الصحة</item>
+        <item>15 - بلاستيك</item>
+        <item>16 - عليك بالماء</item>
+        <item>17 - ملك للَّه فى يدنا</item>
+        <item>18 - كيفا..عطاء القرن ال21</item>
+        <item>19 - ازرع طفلا</item>
+        <item>20 - رقصة نحلة</item>
+        <item>21 - العدل أساس الأمن</item>
+        <item>22 - حلول حكومية</item>
+        <item>23 - اشركنى وسوف افهم</item>
+        <item>24 - فينا امل</item>
+        <item>25 - كل ميسر لما خلق له</item>
+        <item>26 - مسابقة خواطر التطوعية</item>
+        <item>27 - تطيبقات خواطر</item>
+        <item>28 - وداعا خواطر</item>
+        <item>29 - خلف الكواليس</item>
+        <item>30 - مقاطع لم تعرض</item>
+        <item>خلاصة خواطر</item>
+    </string-array>
+    <string-array name="faith_and_era">
+        <item>             — الإيمان والعصر —</item>
+        <item>1 - المقدمة-أسئلة العصر</item>
+        <item>2 - القرآن-الأهداف الإنسانية للقرآن</item>
+        <item>3 - القرآن-كنوزالقرآن</item>
+        <item>4 - جملة واحدة (الرد على داعش)</item>
+        <item>5 - الأخلاق..رد إعتبار الأخلاق</item>
+        <item>6 - الأخلاق..أخلاق الإنطلاق</item>
+        <item>7 - الأخلاق..تناغم الكيان الإنسانى</item>
+        <item>8 - العمل..التجديد والعمل</item>
+        <item>9 - العبادة والعمل</item>
+        <item>10 - الفقر عدو الإسلام</item>
+        <item>11 - مفاهيم جديدة..قدرك تصنعه بيديك</item>
+        <item>12 - مفاهيم جديدة..الدين جزء من الحياة وليس ضد الحياة</item>
+        <item>13 - مفاهيم جديدة..تعيش عصر النبى أم حياة النبى؟</item>
+        <item>14 - مفاهيم جديدة..البداية تبدأ من عندك!</item>
+        <item>15 - مفاهيم جديدة..فقه حب الحياة</item>
+        <item>16 - مفاهيم جديدة..الحب</item>
+        <item>17 - الإلحاد..الرد على الإلحاد (1)</item>
+        <item>18 - الرد على الإلحاد (2)-الإجابة على الأسئلة</item>
+        <item>19 - الرد على الإلحاد (3)-معضلة الألم</item>
+        <item>20 - الرد على الإلحاد (4)-اليقين</item>
+        <item>21 - موانع التجديد..ثقافة الضجيج بدلا من الحوار!</item>
+        <item>22 - موانع التجديد..عقول مشوشة</item>
+        <item>23 - موانع التجديد..المظلومية</item>
+        <item>24 - موانع التجديد..التوبة</item>
+        <item>25 - موانع التجديد..النموذج المعرفى The Mission and Vision</item>
+        <item>26 - ليلة القدر-تحب العفو</item>
+        <item>27 - الخلاصة..مشروع تجديد</item>
+        <item>28 - قصة الإيمان والعصر</item>
+        <item>29 - الختام</item>
+    </string-array>
+    <string-array name="life_road">
+        <item>             — الإيمان والعصر - طريق الحياة —</item>
+        <item>1 - اجعل مركزية حياتك للَّه</item>
+        <item>2 - عش بحول اللَّه وقوته</item>
+        <item>3 - تأمل رموز العبادة لتحيي بها حياتك</item>
+        <item>4 - حسن الخلق بالعيش بأسماء اللَّه الحسنى</item>
+        <item>5 - الاهداف الانسانية للقرآن</item>
+        <item>6 - الإيمان بالقدر ... مشروب للطاقة وليس حقنة مخدرة</item>
+        <item>7 - الأذكار طاقة تحفز للنجاح</item>
+        <item>8 - الإسلام دين الإنسانية</item>
+        <item>9 - لا للمظلومية (الفاعلية الرحيمة)</item>
+        <item>10 - تعامل مع المرأة برحمة وفضل</item>
+        <item>11 - قوة الخير (الخير أقوى من الصراع)</item>
+        <item>12 - القيم مطلقة ومتداخلة</item>
+        <item>13 - حقيقة مفهوم الجهاد فى الإسلام</item>
+        <item>14 - انشر الرحمة وحركها بين الناس</item>
+        <item>15 - الوعى قبل السعى</item>
+        <item>16 - صلح نفسك بنفسك</item>
+        <item>17 - اعمل وامتلك المال</item>
+        <item>18 - الإسلام دين شعبى</item>
+        <item>19 - فن السؤال</item>
+        <item>20 - كن فى المقدمة</item>
+        <item>21 - اعرف ربك</item>
+        <item>22 - فقه حب الحياة</item>
+        <item>23 - تبسيط الحياة</item>
+        <item>24 - التوازن فى الحياة</item>
+        <item>25 - أولويات الحياة</item>
+        <item>26 - تجديد الحياة (ليلة القدر)</item>
+        <item>27 - الإبداع ليس بدعة</item>
+        <item>28 - أنت خليفة اللَّه فى الأرض</item>
+        <item>29 - حلقة مجمعة جزء 1</item>
+        <item>30 - حلقة مجمعة جزء 2</item>
+    </string-array>
+    <string-array name="pilgrimage">
+        <item>             — نفسي أحج —</item>
+        <item>1 - المقدمة</item>
+        <item>2 - ليه بنحج؟</item>
+        <item>3 - مشاعر الحج - خطوة بخطوة</item>
+        <item>4 - رموز الحج</item>
+        <item>5 - رموز الحج الجزء 1</item>
+        <item>6 - رموز الحج الجزء 2</item>
+        <item>الحج خطوة بخطوة</item>
+        <item>8 - أستعد - بكرة عرفة</item>
+        <item>9 - يوم عرفة</item>
+        <item>10 - الحلقة الأخيرة العيد</item>
+        <item>7 أشياء يحبها اللَّه في العشرة الأوائل من ذي الحجة</item>
+        <item>خطوات الحج....</item>
+        <item>7 مبطلات للإحرام</item>
+        <item></item>
+    </string-array>
+    <string-array name="thoughts_sura_alkahf">
+        <item>             — سورة الكهف —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+        <item>الحلقة 7</item>
+        <item>الحلقة 8</item>
+        <item>الحلقة 9</item>
+        <item>الحلقة 10</item>
+        <item>الحلقة 11</item>
+        <item>الحلقة 12</item>
+        <item>الحلقة 13</item>
+        <item>الحلقة 14</item>
+        <item>الحلقة 15</item>
+    </string-array>
+    <string-array name="thoughts_sura_alnour">
+        <item>             — سورة النور —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+        <item>الحلقة 7</item>
+        <item>الحلقة 8</item>
+        <item>الحلقة 9</item>
+        <item>الحلقة 10</item>
+        <item>الحلقة 11</item>
+    </string-array>
+    <string-array name="magic">
+        <item>             — السحر —</item>
+        <item>1 - الشعوذة والدجل</item>
+        <item>2 - مفهوم الإستمتاع</item>
+        <item>3 - المنجمون والسحرة يكذبون</item>
+        <item>4 - الشياطين والقرناء تلتقي وتتبادل الأخبار</item>
+        <item>5 - أسباب تسلط الشياطين والسحرة</item>
+        <item>6 - السحر وأنواعه</item>
+        <item>7 - مدافعة السحر بالطريق الشرعي</item>
+
+    </string-array>
+
+    <!--
+        hopefull implement this feature later
+        <item>
+            قائمتك المفضلة
+        </item> 
+    -->
+
+    <string-array name="app_features">
+        <item>            آخر برنامج شاهدته</item>
+    </string-array>
+
+    <!--
+    ANY CHANGING MUST HAVE CORRESPONDIN CHANGIN IN 
+    MyHelper -> arabic programs names' variable section
+    -->
+    <!--
+    NOTE: if you want to put double space you must put your string
+    between double quotes like
+            <item>"مسلسل  عمر"</item>
+    -->
+
+    <string-array name="programs_names">
+        <item>            — مصطفى حسنى — </item>
+        <item>رسالة من الله</item>
+        <item>فكر 2</item>
+        <item>فن الحياة</item>
+        <item>فكر 1</item>
+        <item>إنسان جديد</item>
+        <item>عيش اللحظة</item>
+        <item>            — خواطر الشعراوى —</item>
+        <item>سورة الكهف</item>
+        <item>سورة النور</item>
+        <item>            — أحمد الشقيرى —</item>
+        <item>خواطر 11</item>
+        <item>خواطر 10</item>
+        <item>            — عمرو خالد —</item>
+        <item>نبي الرحمة والتسامح</item>
+        <item>نفسي أحج</item>
+        <item>الإيمان والعصر - طريق الحياة</item>
+        <item>الإيمان والعصر</item>
+        <item>            — منوعات —</item>
+        <item>السحر</item>
+        <item>"مسلسل عمر"</item>
+    </string-array>
+
+</resources>
