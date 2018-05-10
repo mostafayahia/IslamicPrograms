@@ -49,6 +49,7 @@
         <item>28 - لحظة غيرة</item>
         <item>29 - لحظة فوز</item>
     </string-array>
+
     <string-array name="new_person">
         <item>             — برنامج إنسان جديد —</item>
         <item>1 - البداية</item>
@@ -81,6 +82,7 @@
         <item>28 - النقمة على الحياة</item>
         <item>29 - إيقاظ الوعى</item>
     </string-array>
+
     <string-array name="think_2">
         <item>             — فكَّر الموسم الثانى —</item>
         <item>1 - شر ما قضيت</item>
@@ -162,6 +164,97 @@
         <item>77 - أسوأ ترميز</item>
         <item>78 - ما أجملك يا اللَّه</item>
         <item>79 - الوصول للقاع</item>
+        <item>80 - الفتي</item>
+        <item>81 - منقذ الخطائين</item>
+        <item>82 - يعرفك في الشدة</item>
+        <item>83 - لو نفسك تتعلم</item>
+        <item>84 - لا تهدم بناء الثقة</item>
+        <item>85 - المتكبر</item>
+        <item>86 - البلطجة العاطفية</item>
+        <item>87 - ببساطة مع اللَّه</item>
+        <item>88 - عشم النبي</item>
+        <item>89 - خيره لبّره</item>
+        <item>90 - آداب تحقق الأحلام</item>
+        <item>91 - إنسانية مصطفى حسني</item>
+        <item>92 - أزمة الروح</item>
+        <item>93 - الرحلة تصنعك</item>
+        <item>94 - الكبت</item>
+        <item>95 - أول علامة يؤمنون بالغيب</item>
+        <item>96 - مكسب قريب وخسارة بعيدة</item>
+        <item>97 - عز الفقير</item>
+        <item>98 - هل عندك معيار؟</item>
+        <item>99 - تاريخ مُطمئن</item>
+        <item>100 - المعنى الأكبر</item>
+        <item>101 - المعركة الخاطئة</item>
+        <item>102 - أعز ما تملك</item>
+        <item>103 - تعظيم الدين</item>
+        <item>104 - حواليا مُحبَطين</item>
+        <item>105 - الواسع</item>
+        <item>106 - ثوب الرجا</item>
+        <item>107 - حياة الحماس</item>
+        <item>108 - من أجمل معاني الرضا</item>
+        <item>109 - الموهبة والشخصية</item>
+        <item>110 - سيطرة الروح</item>
+        <item>111 - الفرار من الأسد</item>
+        <item>112 - اجرِ ناحية الخوف</item>
+        <item>113 - النظافة الشخصية</item>
+        <item>114 - البناء الآمن</item>
+        <item>115 - الوهاب</item>
+        <item>116 - خدمة المنافس</item>
+        <item>117 - كيف تتعامل مع النقد</item>
+        <item>118 - يوم يقوم الروح</item>
+        <item>119 - الأعتداء في الدعاء</item>
+        <item>120 - عهد اللَّه</item>
+        <item>121 - الترك بنفس راضية</item>
+        <item>122 - احمِ عقلك</item>
+        <item>123 - سر الحياة</item>
+        <item>124 - الاطمئنان المزيف</item>
+        <item>125 - اللَّه الودود</item>
+        <item>126 - الملف المفتوح</item>
+        <item>127 - صاحب العمر جسدك</item>
+        <item>128 - الحب على الفيسبوك</item>
+        <item>129 - الحق قبل المكسب</item>
+        <item>130 - الحالات الحرجة</item>
+        <item>131 - الحكيم</item>
+        <item>132 - متبصش تحت رجليك وانت بتتجوز</item>
+        <item>133 - سجود السهو</item>
+        <item>134 - الحالة المزاجية</item>
+        <item>135 - سورة الماعون</item>
+        <item>136 - اللَّه أولاً</item>
+        <item>137 - نقطة الرجوع</item>
+        <item>138 - الكراهية</item>
+        <item>139 - حرية التطاول</item>
+        <item>140 - فكر هدامة</item>
+        <item>141 - الحياة سلف ودين</item>
+        <item>142 - وأنا مالي</item>
+        <item>143 - يعطي حتى يغنى</item>
+        <item>144 - أيهما أولاً</item>
+        <item>145 - في بُقه سمكة</item>
+        <item>146 - أنت عابد</item>
+        <item>147 - وتحسبونه هيناً</item>
+        <item>148 - زميلي معجب بيا</item>
+        <item>149 - أخبرهم كيف يعاملوك</item>
+        <item>150 - حرية القلب</item>
+        <item>151 - الناس تُحب من يُحب الحياة</item>
+        <item>152 - غضب مفيد</item>
+        <item>153 - لست وحدك</item>
+        <item>154 - شعيرنا ولا قمح غيرنا</item>
+        <item>155 - حرمان الصالحين</item>
+        <item>156 - الحساب يوم الحساب</item>
+        <item>157 - الظروف أقدار ورد الفعل اختيار</item>
+        <item>158 - المشنقة</item>
+        <item>159 - جهِّز نفسك</item>
+        <item>160 - دعوت فاستجاب فشكوت</item>
+        <item>161 - متفهم رحيم</item>
+        <item>162 - الحليم</item>
+        <item>163 - وقفة مع النفس</item>
+        <item>164 - مقام الفتوة</item>
+        <item>165 - الحالقة</item>
+        <item>166 - صديق العمر</item>
+        <item>167 - أخلاق إلكترونية</item>
+        <item>168 - البداية هي النهاية</item>
+        <item>169 - الصلة لن تنقطع</item>
+        <item>170 - فريق في الجنة</item>
     </string-array>
 
     <!--
@@ -351,6 +444,7 @@
         <item>179 - دين الحب</item>
         <item>180 - كاسر القلوب</item>
     </string-array>
+
     <string-array name="life_art">
         <item>             — فن الحياة —</item>
         <item>1 - رحلة الإرتقاء</item>
@@ -383,6 +477,7 @@
         <item>28 - فن القيادة</item>
         <item>29 - فن الاسترخاء وتجديد النشاط</item>
     </string-array>
+
     <string-array name="message_from_god">
         <item>             — رسالة من اللَّه —</item>
         <item>1 - القرآن صاحب العمر</item>
@@ -524,6 +619,7 @@
         <item>29 - توضيجات + خلف الكواليس</item>
         <item>30 - سموم</item>
     </string-array>
+
     <string-array name="reflections_11">
         <item>             — خواطر 11 —</item>
         <item>1 - بسم اللَّه</item>
@@ -558,6 +654,7 @@
         <item>30 - مقاطع لم تعرض</item>
         <item>خلاصة خواطر</item>
     </string-array>
+
     <string-array name="faith_and_era">
         <item>             — الإيمان والعصر —</item>
         <item>1 - المقدمة-أسئلة العصر</item>
@@ -590,6 +687,7 @@
         <item>28 - قصة الإيمان والعصر</item>
         <item>29 - الختام</item>
     </string-array>
+
     <string-array name="life_road">
         <item>             — الإيمان والعصر - طريق الحياة —</item>
         <item>1 - اجعل مركزية حياتك للَّه</item>
@@ -623,6 +721,7 @@
         <item>29 - حلقة مجمعة جزء 1</item>
         <item>30 - حلقة مجمعة جزء 2</item>
     </string-array>
+
     <string-array name="pilgrimage">
         <item>             — نفسي أحج —</item>
         <item>1 - المقدمة</item>
@@ -640,6 +739,7 @@
         <item>7 مبطلات للإحرام</item>
         <item></item>
     </string-array>
+
     <string-array name="thoughts_sura_alkahf">
         <item>             — سورة الكهف —</item>
         <item>الحلقة 1</item>
@@ -658,6 +758,7 @@
         <item>الحلقة 14</item>
         <item>الحلقة 15</item>
     </string-array>
+
     <string-array name="thoughts_sura_alnour">
         <item>             — سورة النور —</item>
         <item>الحلقة 1</item>
@@ -672,6 +773,76 @@
         <item>الحلقة 10</item>
         <item>الحلقة 11</item>
     </string-array>
+
+
+    <!--
+    for (int i = 1; i < 50; i++)
+            System.out.println("<item>" + i + "</item>");
+    -->
+    <!-- TODO (2) add episodes' names in arabic here -->
+    <string-array name="thoughts_sura_altawba">
+        <item>             — سورة التوبة —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+        <item>الحلقة 7</item>
+        <item>الحلقة 8</item>
+        <item>الحلقة 9</item>
+        <item>الحلقة 10</item>
+        <item>الحلقة 11</item>
+        <item>الحلقة 12</item>
+        <item>الحلقة 13</item>
+        <item>الحلقة 14</item>
+        <item>الحلقة 15</item>
+        <item>الحلقة 16</item>
+        <item>الحلقة 17</item>
+        <item>الحلقة 18</item>
+        <item>الحلقة 19</item>
+        <item>الحلقة 20</item>
+        <item>الحلقة 21</item>
+        <item>الحلقة 22</item>
+        <item>الحلقة 23</item>
+        <item>الحلقة 24</item>
+        <item>الحلقة 25</item>
+        <item>الحلقة 26</item>
+        <item>الحلقة 27</item>
+        <item>الحلقة 28</item>
+        <item>الحلقة 29</item>
+        <item>الحلقة 30</item>
+        <item>الحلقة 31</item>
+        <item>الحلقة 32</item>
+        <item>الحلقة 33</item>
+        <item>الحلقة 34</item>
+        <item>الحلقة 35</item>
+        <item>الحلقة 36</item>
+        <item>الحلقة 37</item>
+        <item>الحلقة 38</item>
+        <item>الحلقة 39</item>
+        <item>الحلقة 40</item>
+        <item>الحلقة 41</item>
+        <item>الحلقة 42</item>
+        <item>الحلقة 43</item>
+        <item>الحلقة 44</item>
+        <item>الحلقة 45</item>
+        <item>الحلقة 46</item>
+        <item>الحلقة 47</item>
+        <item>الحلقة 48</item>
+        <item>الحلقة 49</item>
+        <item>الحلقة 50</item>
+    </string-array>
+
+    <string-array name="thoughts_sura_aldokhan">
+        <item>             — سورة الدخان —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+    </string-array>
+
     <string-array name="magic">
         <item>             — السحر —</item>
         <item>1 - الشعوذة والدجل</item>
@@ -705,6 +876,7 @@
             <item>"مسلسل  عمر"</item>
     -->
 
+    <!-- TODO (9) add your program name in the list that appear in the home screen -->
     <string-array name="programs_names">
         <item>            — مصطفى حسنى — </item>
         <item>رسالة من الله</item>
@@ -714,8 +886,10 @@
         <item>إنسان جديد</item>
         <item>عيش اللحظة</item>
         <item>            — خواطر الشعراوى —</item>
+        <item>سورة التوبة</item>
         <item>سورة الكهف</item>
         <item>سورة النور</item>
+        <item>سورة الدخان</item>
         <item>            — أحمد الشقيرى —</item>
         <item>خواطر 11</item>
         <item>خواطر 10</item>

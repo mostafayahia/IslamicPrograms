@@ -54,7 +54,7 @@ public class EpisodesActivity extends ListActivity implements OnItemClickListene
 	private SharedPreferences mPrefs;
 	private ListView lv;
 	
-	private final String TAG = "islamicProgramsApplication";
+	private final String TAG = EpisodesActivity.class.getSimpleName();
 	
 	// using this variable to ENSURE this activity onStop state
 	// and the user activate another activity to watch an episode
@@ -120,7 +120,6 @@ public class EpisodesActivity extends ListActivity implements OnItemClickListene
 	/** run when the activity is return from onStop state or after finishing onCreate method */
 	@Override
 	protected void onStart() {
-		// TODO Auto-generated method stub
 		super.onStart();
 		
 		// scroll the list to the certain position (position of the item on the list view)
@@ -147,7 +146,6 @@ public class EpisodesActivity extends ListActivity implements OnItemClickListene
 	/*
 	@Override
 	protected void onStart() {
-		// TODO Auto-generated method stub
 		super.onStart();
 		// if you don't put this code in runnable of the post method you will get error
 		// because the list view has not rendered yet
@@ -174,7 +172,6 @@ public class EpisodesActivity extends ListActivity implements OnItemClickListene
 	/** run when the activity is visible to the user */
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
 		super.onResume();
 		//showMessage("onResume");
 		
@@ -184,7 +181,6 @@ public class EpisodesActivity extends ListActivity implements OnItemClickListene
 	/* run when the activity completely invisible */
 	@Override
 	protected void onStop() {
-		// TODO Auto-generated method stub
 		super.onStop();
 		//showMessage("onStop");
 		
@@ -207,7 +203,6 @@ public class EpisodesActivity extends ListActivity implements OnItemClickListene
 	/** run at last state of the activity life cycle */
 	@Override
 	protected void onDestroy() {
-		// TODO Auto-generated method stub
 		super.onDestroy();
 		//showMessage("onDestroy");
 		Log.i(TAG, "onDestroy() is called");
@@ -236,7 +231,6 @@ public class EpisodesActivity extends ListActivity implements OnItemClickListene
 	/*
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {
-		// TODO Auto-generated method stub
 		super.onSaveInstanceState(outState);
 		showMessage("onSaveInstaceState");
 		outState.putInt("episodeNo", episodeNo);
@@ -262,6 +256,8 @@ public class EpisodesActivity extends ListActivity implements OnItemClickListene
 		if ((index = episodeLink.indexOf("&list=")) != -1)
 			episodeLink = episodeLink.substring(0, index);
 		if ((index = episodeLink.indexOf("&index=")) != -1)
+			episodeLink = episodeLink.substring(0, index);
+		if ((index = episodeLink.indexOf("&t=")) != -1)
 			episodeLink = episodeLink.substring(0, index);
 		
 		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(episodeLink)));

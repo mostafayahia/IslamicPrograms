@@ -47,7 +47,6 @@ public class IslamicProgramsEntry extends ListActivity implements OnItemClickLis
 	/** run at first time activity created */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 
 		// get program names from strings.xml
