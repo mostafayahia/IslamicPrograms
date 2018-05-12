@@ -876,7 +876,7 @@
             <item>"مسلسل  عمر"</item>
     -->
 
-    <!-- TODO (9) add your program name in the list that appear in the home screen -->
+    <!-- TODO (9) add your program name in the list that appear in the home screen and MUST match the arabic name in TODO (3) -->
     <string-array name="programs_names">
         <item>            — مصطفى حسنى — </item>
         <item>رسالة من الله</item>

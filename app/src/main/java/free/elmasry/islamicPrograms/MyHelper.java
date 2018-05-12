@@ -42,7 +42,7 @@ public class MyHelper {
     // ANY CHANGING IN THESE VARIABLES' VALUES MUST HAVE CORRESPONDING CHANGING IN
     // STRINGS.XML -> programNames
     // Arabic programs names' variables
-    // TODO (3) add program name in arabic and must match the arabic name in TODO (2)
+    // TODO (3) add program name in arabic and should match the arabic name in TODO (2)
     private static final String PROGRAM_NAME_AR_LIVE_THE_MOMENT = "عيش اللحظة";
     private static final String PROGRAM_NAME_AR_NEW_PERSON = "إنسان جديد";
     private static final String PROGRAM_NAME_AR_REFLECTIONS_10 = "خواطر 10";
