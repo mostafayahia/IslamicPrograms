@@ -780,6 +780,74 @@
             System.out.println("<item>" + i + "</item>");
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
+
+    <string-array name="confused">
+        <item>             — برنامج حائر —</item>
+        <item>1 - حائر</item>
+        <item>2 - الفوز في رمضان</item>
+        <item>3 - الخشوع في الصلاة</item>
+        <item>4 - السجن داخل الذنب</item>
+        <item>5 - الحسد</item>
+        <item>6 - تأخر الزواج</item>
+        <item>7 - التعامل مع المحن</item>
+        <item>8 - الحجاب</item>
+        <item>9 - الموت والقبر</item>
+        <item>10 - خسارة المقربين</item>
+        <item>11 - الاستسلام للَّه</item>
+        <item>12 - الخوض فى الأعراض</item>
+        <item>13 - القرآن والسُنة</item>
+        <item>14 - الحب والصحوبية</item>
+        <item>15 - مساعدة الخلق</item>
+        <item>16 - زوجة حائرة</item>
+        <item>17 - زوج حائر</item>
+        <item>18 - صعوبة التربية</item>
+        <item>19 - الهزيمة أمام الشيطان</item>
+        <item>20 -الوضوح والأمانة </item>
+        <item>21 - الخطوبة</item>
+        <item>22 - الطلاق</item>
+        <item>23 - التعامل مع الإيذاء</item>
+        <item>24 - المشاكل مع الأهل</item>
+        <item>25 - الاجتهاد في طلب الرزق</item>
+        <item>26 - أقدار اللَّه</item>
+        <item>27 - العفة والحياء</item>
+        <item>28 - مشاكل في الشغل</item>
+        <item>29 - القسوة في الإسلام</item>
+    </string-array>
+
+    <string-array name="biography_is_life">
+        <item>             — برنامج السيرة حياة —</item>
+        <item>1 - الهجرة للمدينة</item>
+        <item>2 - يوم غير التاريخ</item>
+        <item>3 - رفع الروح المعنوية</item>
+        <item>4 - التعامل مع الزوجة</item>
+        <item>5 - بناء المدينة في 5 أشهر</item>
+        <item>6 - مواجهة الأزمات قبل غزوة بدر</item>
+        <item>7 - غزوة بدر</item>
+        <item>8 - قيم للحب والزواج</item>
+        <item>9 - قوانين الحياة</item>
+        <item>10 - بعد غزوة أحد</item>
+        <item>11 - طرد اليهود من المدينة</item>
+        <item>12 - حل أزمات البيوت والمشاكل الزوجية</item>
+        <item>13 - غزوة الخندق</item>
+        <item>14 - تحليل الشخصيات</item>
+        <item>15 - حادثة الإفك</item>
+        <item>16 - أول عمرة</item>
+        <item>17 - حوار الأديان</item>
+        <item>18 - غزوة مؤتة</item>
+        <item>19 - الأنصار</item>
+        <item>20 - غزوة خيبر</item>
+        <item>21 - النبي غني وليس فقيراً</item>
+        <item>22 - فتح مكة</item>
+        <item>23 - غزوة حنين</item>
+        <item>24 - غزوة تبوك</item>
+        <item>25 - عام الوفود</item>
+        <item>26 - ليلة القدر</item>
+        <item>27 - حجة الوداع</item>
+        <item>28 - وفاة النبي</item>
+        <item>29 - بانوراما الحلقات 1</item>
+        <item>30 - بانوراما الحلقات 2</item>
+    </string-array>
+
     <string-array name="thoughts_sura_altawba">
         <item>             — سورة التوبة —</item>
         <item>الحلقة 1</item>
@@ -856,7 +924,7 @@
     </string-array>
 
     <!--
-        hopefull implement this feature later
+        hopefully implement this feature later
         <item>
             قائمتك المفضلة
         </item> 
@@ -879,6 +947,7 @@
     <!-- TODO (9) add your program name in the list that appear in the home screen and MUST match the arabic name in TODO (3) -->
     <string-array name="programs_names">
         <item>            — مصطفى حسنى — </item>
+        <item>حائر</item>
         <item>رسالة من الله</item>
         <item>فكر 2</item>
         <item>فن الحياة</item>
@@ -894,6 +963,7 @@
         <item>خواطر 11</item>
         <item>خواطر 10</item>
         <item>            — عمرو خالد —</item>
+        <item>السيرة حياة</item>
         <item>نبي الرحمة والتسامح</item>
         <item>نفسي أحج</item>
         <item>الإيمان والعصر - طريق الحياة</item>
