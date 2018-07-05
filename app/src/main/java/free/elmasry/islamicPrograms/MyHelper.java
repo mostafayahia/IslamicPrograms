@@ -43,6 +43,7 @@ public class MyHelper {
     // STRINGS.XML -> programNames
     // Arabic programs names' variables
     // TODO (3) add program name in arabic and should match the arabic name in TODO (2)
+    private static final String PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN = "سورة يس";
     private static final String PROGRAM_NAME_AR_CONFUSED = "حائر";
     private static final String PROGRAM_NAME_AR_BIOGRAPHY_IS_LIFE = "السيرة حياة";
     private static final String PROGRAM_NAME_AR_LIVE_THE_MOMENT = "عيش اللحظة";
@@ -68,6 +69,7 @@ public class MyHelper {
     // ===== DON'T MODIFY ====
     // English programs names' variables
     // TODO (4) add program name in english
+    static final String PROGRAM_NAME_EN_THOUGHTS_SURA_YA_SEEN = "thoughts_sura_ya_seen_";
     static final String PROGRAM_NAME_EN_CONFUSED = "confused_";
     static final String PROGRAM_NAME_EN_BIOGRAPHY_IS_LIFE = "biography_is_life_";
     static final String PROGRAM_NAME_EN_LIVE_THE_MOMENT = "live_the_moment_";
@@ -126,6 +128,7 @@ public class MyHelper {
      */
     private static void fillProgramSectionMap() {
         // TODO (5) add the program to a certain section
+        PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN, SECTION_NAME_EN_ALSHAARAWY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_LIVE_THE_MOMENT, SECTION_NAME_EN_MOSTAFA_HOSNY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_NEW_PERSON, SECTION_NAME_EN_MOSTAFA_HOSNY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_REFLECTIONS_10, SECTION_NAME_EN_AHMED_ELSHAKERY);
@@ -155,6 +158,7 @@ public class MyHelper {
      */
     private static void fillProgramArEnMap() {
         // TODO (6) map the arabic and english name of the program
+        PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN, PROGRAM_NAME_EN_THOUGHTS_SURA_YA_SEEN);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_LIVE_THE_MOMENT, PROGRAM_NAME_EN_LIVE_THE_MOMENT);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_NEW_PERSON, PROGRAM_NAME_EN_NEW_PERSON);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_REFLECTIONS_10, PROGRAM_NAME_EN_REFLECTIONS_10);
@@ -185,6 +189,21 @@ public class MyHelper {
      */
     static String[] getEpisodesLinks(String arProgramName) {
         // TODO (8) add the episodes' links of the program in this method
+        if (arProgramName.equals(PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN))
+            return new String[]{
+                    "https://www.youtube.com/watch?v=pAO8GtMeOgs&index=2&t=3s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=XRXcZRusjlY&index=3&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=AzHgYGUjQnU&index=4&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=F8NAMTrwyr8&index=5&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=rMwVLSnlDtA&index=6&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=62E5BMVbWdI&index=7&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=j4WDkA8lnoA&index=8&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=PJu1SrADt68&index=9&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=4SXa3actwQM&index=10&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=AdSz9wFEcoQ&index=11&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=fHsHeGzz_Og&index=12&t=0s&list=PL7AFA891E979C3874",
+                    "https://www.youtube.com/watch?v=qepJ6ITUCL0&index=13&t=0s&list=PL7AFA891E979C3874"
+            };
         if (arProgramName.equals(PROGRAM_NAME_AR_CONFUSED))
             return new String[]{
                     "https://www.youtube.com/watch?v=s-y_r_JFZsI&list=PLiJggHtOlnN1vsEZC0PXAeh-qBIfKynoH&index=30&t=0s",
@@ -1090,6 +1109,8 @@ public class MyHelper {
      */
     static Integer getArrResID(String arProgramName) {
         // TODO (7) this method should return correct array reference for arabic name of the program
+        if (arProgramName.equals(PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN))
+            return R.array.sura_ya_seen;
         if (arProgramName.equals(PROGRAM_NAME_AR_CONFUSED))
             return R.array.confused;
         if (arProgramName.equals(PROGRAM_NAME_AR_BIOGRAPHY_IS_LIFE))

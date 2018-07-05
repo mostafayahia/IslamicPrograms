@@ -781,6 +781,22 @@
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
 
+    <string-array name="sura_ya_seen">
+        <item>             — سورة يس —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+        <item>الحلقة 7</item>
+        <item>الحلقة 8</item>
+        <item>الحلقة 9</item>
+        <item>الحلقة 10</item>
+        <item>الحلقة 11</item>
+        <item>الحلقة 12</item>
+    </string-array>
+
     <string-array name="confused">
         <item>             — برنامج حائر —</item>
         <item>1 - حائر</item>
@@ -958,6 +974,7 @@
         <item>سورة التوبة</item>
         <item>سورة الكهف</item>
         <item>سورة النور</item>
+        <item>سورة يس</item>
         <item>سورة الدخان</item>
         <item>            — أحمد الشقيرى —</item>
         <item>خواطر 11</item>
