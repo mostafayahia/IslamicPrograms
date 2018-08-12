@@ -43,6 +43,7 @@ public class MyHelper {
     // STRINGS.XML -> programNames
     // Arabic programs names' variables
     // TODO (3) add program name in arabic and should match the arabic name in TODO (2)
+    private static final String PROGRAM_NAME_AR_AGE_HARVEST = "حصاد العمر";
     private static final String PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN = "سورة يس";
     private static final String PROGRAM_NAME_AR_CONFUSED = "حائر";
     private static final String PROGRAM_NAME_AR_BIOGRAPHY_IS_LIFE = "السيرة حياة";
@@ -69,6 +70,7 @@ public class MyHelper {
     // ===== DON'T MODIFY ====
     // English programs names' variables
     // TODO (4) add program name in english
+    static final String PROGRAM_NAME_EN_AGE_HARVEST = "age_harvest_";
     static final String PROGRAM_NAME_EN_THOUGHTS_SURA_YA_SEEN = "thoughts_sura_ya_seen_";
     static final String PROGRAM_NAME_EN_CONFUSED = "confused_";
     static final String PROGRAM_NAME_EN_BIOGRAPHY_IS_LIFE = "biography_is_life_";
@@ -128,6 +130,7 @@ public class MyHelper {
      */
     private static void fillProgramSectionMap() {
         // TODO (5) add the program to a certain section
+        PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_AGE_HARVEST, SECTION_NAME_EN_MISCELLANEOUS);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN, SECTION_NAME_EN_ALSHAARAWY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_LIVE_THE_MOMENT, SECTION_NAME_EN_MOSTAFA_HOSNY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_NEW_PERSON, SECTION_NAME_EN_MOSTAFA_HOSNY);
@@ -158,6 +161,7 @@ public class MyHelper {
      */
     private static void fillProgramArEnMap() {
         // TODO (6) map the arabic and english name of the program
+        PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_AGE_HARVEST, PROGRAM_NAME_EN_AGE_HARVEST);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN, PROGRAM_NAME_EN_THOUGHTS_SURA_YA_SEEN);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_LIVE_THE_MOMENT, PROGRAM_NAME_EN_LIVE_THE_MOMENT);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_NEW_PERSON, PROGRAM_NAME_EN_NEW_PERSON);
@@ -189,6 +193,39 @@ public class MyHelper {
      */
     static String[] getEpisodesLinks(String arProgramName) {
         // TODO (8) add the episodes' links of the program in this method
+        if (arProgramName.equals(PROGRAM_NAME_AR_AGE_HARVEST))
+            return new String[]{
+                    "https://www.youtube.com/watch?v=w5F9WGRKbLw&index=3&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=gqAX1lfdTCA&index=4&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=6s",
+                    "https://www.youtube.com/watch?v=Pr0misjMkfI&index=5&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=2s",
+                    "https://www.youtube.com/watch?v=53Qba9X6cLc&index=6&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=SuyR-5QpK8k&index=7&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=XykoOfuygjs&index=8&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=5s",
+                    "https://www.youtube.com/watch?v=25mPCY0Wjy4&index=9&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=iq8I2xJ-NKA&index=10&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=dAAdJm4Amjg&index=11&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=H-Pc5FcV-1s&index=12&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=1s",
+                    "https://www.youtube.com/watch?v=0X_Nap5E5bY&index=13&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=r2SyoZQ0AN0&index=14&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=Vs3r19kcRNQ&index=15&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=5s",
+                    "https://www.youtube.com/watch?v=twC1DR4Y-N0&index=16&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=dbdEcKs5TpY&index=17&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=U5O2vUPUwAU&index=18&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=13s",
+                    "https://www.youtube.com/watch?v=eRB9h2px-9c&index=19&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=ll_HCbE5toU&index=20&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=nGAyfqveGjs&index=21&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=IN__89LiPjg&index=22&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=Hoh3Nwm1Q0c&index=23&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=e0X4CZqvKV4&index=24&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=Nmrf-6rnNK4&index=25&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=HywJSr_oilI&index=26&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=43oeQj1tiL0&index=27&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=iflSVeeiZXs&index=28&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=E80b47iPIoo&index=29&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=59s",
+                    "https://www.youtube.com/watch?v=KjoC0HTBmQo&index=30&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=dYobzSj9zWk&index=31&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s",
+                    "https://www.youtube.com/watch?v=X8j6VLwJdVg&index=32&list=PLATlJNRzYr-Cr9kaSF0EAqFNBBeGeju71&t=0s"
+            };
         if (arProgramName.equals(PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN))
             return new String[]{
                     "https://www.youtube.com/watch?v=pAO8GtMeOgs&index=2&t=3s&list=PL7AFA891E979C3874",
@@ -1109,6 +1146,8 @@ public class MyHelper {
      */
     static Integer getArrResID(String arProgramName) {
         // TODO (7) this method should return correct array reference for arabic name of the program
+        if (arProgramName.equals(PROGRAM_NAME_AR_AGE_HARVEST))
+            return R.array.age_harvest;
         if (arProgramName.equals(PROGRAM_NAME_AR_THOUGHTS_SURA_YA_SEEN))
             return R.array.sura_ya_seen;
         if (arProgramName.equals(PROGRAM_NAME_AR_CONFUSED))

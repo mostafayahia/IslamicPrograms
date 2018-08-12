@@ -781,6 +781,40 @@
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
 
+    <string-array name="age_harvest">
+        <item>             — حصاد العمر —</item>
+        <item>1 - بين السماء والأرض</item>
+        <item>2 - متى تستعجل؟</item>
+        <item>3 - مواسم الطاعات</item>
+        <item>4 - أى العمل أفضل؟</item>
+        <item>5 - الصلاة الهادئة</item>
+        <item>6 - طرق حتم القرآن</item>
+        <item>7 - كيف تقرأ القرآن؟</item>
+        <item>8 - علامات الحب</item>
+        <item>9 - حب آل البيت</item>
+        <item>10 - النظام المعجز</item>
+        <item>11 - أدلة الغيبيات</item>
+        <item>12 - لماذا المعاصي؟</item>
+        <item>13 - تقوية الإرادة</item>
+        <item>14 - الفكر والسلوك</item>
+        <item>15 - هل تحتاج للتحفيز؟</item>
+        <item>16 - بدر بالألوان</item>
+        <item>17 - دعاة لا قضاة</item>
+        <item>18 - درجات الخطر</item>
+        <item>19 - أصناف الناس</item>
+        <item>20 - ماذا عملت بعلمك؟</item>
+        <item>21 - الأحلام الواقعية</item>
+        <item>22 - متى تنسحب؟</item>
+        <item>23 - الانتشال من المشاكل</item>
+        <item>24 - لا تلتفت</item>
+        <item>25 - قانون الأفوكادو</item>
+        <item>26 - لا تكن مثالياً</item>
+        <item>27 - احترام العلم </item>
+        <item>28 - القيم والأخلاق</item>
+        <item>29 - كيفية الوداع</item>
+        <item>30 - التفاؤل والرجاء</item>
+    </string-array>
+
     <string-array name="sura_ya_seen">
         <item>             — سورة يس —</item>
         <item>الحلقة 1</item>
@@ -986,6 +1020,7 @@
         <item>الإيمان والعصر - طريق الحياة</item>
         <item>الإيمان والعصر</item>
         <item>            — منوعات —</item>
+        <item>حصاد العمر</item>
         <item>السحر</item>
         <item>"مسلسل عمر"</item>
     </string-array>
