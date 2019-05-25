@@ -781,6 +781,24 @@
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
 
+    <string-array name="thoughts_sura_yusuf">
+        <item>             — سورة يوسف —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+        <item>الحلقة 7</item>
+        <item>الحلقة 8</item>
+        <item>الحلقة 9</item>
+        <item>الحلقة 10</item>
+        <item>الحلقة 11</item>
+        <item>الحلقة 12</item>
+        <item>الحلقة 13</item>
+        <item>الحلقة 14</item>
+    </string-array>
+
     <string-array name="age_harvest">
         <item>             — حصاد العمر —</item>
         <item>1 - بين السماء والأرض</item>
@@ -815,7 +833,7 @@
         <item>30 - التفاؤل والرجاء</item>
     </string-array>
 
-    <string-array name="sura_ya_seen">
+    <string-array name="thoughts_sura_ya_seen">
         <item>             — سورة يس —</item>
         <item>الحلقة 1</item>
         <item>الحلقة 2</item>
@@ -1006,6 +1024,7 @@
         <item>عيش اللحظة</item>
         <item>            — خواطر الشعراوى —</item>
         <item>سورة التوبة</item>
+        <item>سورة يوسف</item>
         <item>سورة الكهف</item>
         <item>سورة النور</item>
         <item>سورة يس</item>
