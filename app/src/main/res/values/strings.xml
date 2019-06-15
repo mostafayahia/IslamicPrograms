@@ -781,6 +781,69 @@
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
 
+    <string-array name="life_journey">
+        <item>             — رحلة حياة —</item>
+        <item>1 - بداية الرحلة</item>
+        <item>2 - علاقتي بربي</item>
+        <item>3 - علاقتي برمضان</item>
+        <item>4 - علاقتي بالجنة</item>
+        <item>5 - علاقتي بقلبي</item>
+        <item>6 - علاقتي بزوجتي</item>
+        <item>7 - علاقتي بزوجي</item>
+        <item>8 - علاقتي بالألم</item>
+        <item>9 - علاقتي بالنار</item>
+        <item>10 - علاقتي بالحب</item>
+        <item>11 - علاقتى بصلاتي</item>
+        <item>12 - علاقتي بالفلوس</item>
+        <item>13 - علاقتي بيوم الحساب</item>
+        <item>14 - علاقتي بالمشاعر</item>
+        <item>15 - علاقتي بالشيطان</item>
+        <item>16 - علاقتي بروحي المعنوية</item>
+        <item>17 - علاقتي بشهواتي</item>
+        <item>18 - علاقتي بالسوشيال ميديا</item>
+        <item>19 - علاقتي بالقرآن</item>
+        <item>20 - علاقتي برسول اللَّه</item>
+        <item>21 - علاقتي بالتغيير</item>
+        <item>22 - علاقتي بنفسي</item>
+        <item>23 - علاقتي بأبنائي</item>
+        <item>24 - علاقتي بالتواصل مع الناس</item>
+        <item>25 - علاقتي بالخوف والقلق</item>
+        <item>26 - علاقتي بعيوبي</item>
+        <item>27 - علاقتي بمسئولياتي</item>
+        <item>28 - علاقتي بشغلي</item>
+        <item>29 - علاقتي بالعطاء</item>
+    </string-array>
+
+    <string-array name="remember_me">
+        <item>             — فاذكروني —</item>
+        <item>1 - لا إله إلا اللَّه</item>
+        <item>2 - الأستغفار</item>
+        <item>3 - لا حول ولا قوة إلا باللَّه</item>
+        <item>4 - حمد اللَّه والرضا عنه</item>
+        <item>5 - الصلاة على النبي</item>
+        <item>6 - الأسماء الحسني</item>
+        <item>7 - وربك فكبر</item>
+        <item>8 - الباقيات الصالحات</item>
+        <item>9 - سبحان اللَّه</item>
+        <item>10 - ياولي تولى أمري</item>
+        <item>11 - لا إله إلا اللَّه</item>
+        <item>12 - يا فتاح افتح علينا</item>
+        <item>13 - لا حول ولا قوة إلا باللَّه</item>
+        <item>14 - يا حفيظ احفظنا</item>
+        <item>15 - استغفر اللَّه</item>
+        <item>16 - حسبى اللَّه ونعم الوكيل</item>
+        <item>17 - هواك ومزاجك مع النبي</item>
+        <item>18 - الباقيات الصالحات</item>
+        <item>19 - الحمد للَّه</item>
+        <item>20 - يا مجيب أجب دعاءنا</item>
+        <item>21 - يا نور نور قلوبنا</item>
+        <item>22 - الصلاة على النبي</item>
+        <item>23 - لا إله إلا اللَّه</item>
+        <item>24 - يا وكيل توكلنا عليك</item>
+        <item>25 - المداومة على الذكر</item>
+        <item>26 - ليلة القدر</item>
+    </string-array>
+
     <string-array name="thoughts_sura_yusuf">
         <item>             — سورة يوسف —</item>
         <item>الحلقة 1</item>
@@ -1015,6 +1078,7 @@
     <!-- TODO (9) add your program name in the list that appear in the home screen and MUST match the arabic name in TODO (3) -->
     <string-array name="programs_names">
         <item>            — مصطفى حسنى — </item>
+        <item>رحلة حياة</item>
         <item>حائر</item>
         <item>رسالة من الله</item>
         <item>فكر 2</item>
@@ -1033,6 +1097,7 @@
         <item>خواطر 11</item>
         <item>خواطر 10</item>
         <item>            — عمرو خالد —</item>
+        <item>فاذكروني</item>
         <item>السيرة حياة</item>
         <item>نبي الرحمة والتسامح</item>
         <item>نفسي أحج</item>
