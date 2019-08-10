@@ -780,6 +780,18 @@
             System.out.println("<item>" + i + "</item>");
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
+    <string-array name="pilgrim_memories">
+        <item>             — ذكريات حاج —</item>
+        <item>1 - كيف يختار اللَّه عباده للحج</item>
+        <item>2 - يغمر اللَّه الحجاج بكرمه وعطائه</item>
+        <item>3 - مشاعر ومعانى مناسك العمرة</item>
+        <item>4 - تذوق حلاوة الحج</item>
+        <item>5 - اطلق قلبك بالدعاء فى خير أيام اللَّه</item>
+        <item>6 - حسن الظن باللَّه سر إجابة الدعاء</item>
+        <item>7 - قصة زواج مستحيلة</item>
+        <item>8 - يوم عرفة عاهدوا اللَّه على شىء كبير</item>
+        <item>9 - دعاء يوم عرفة</item>
+    </string-array>
 
     <string-array name="life_journey">
         <item>             — رحلة حياة —</item>
@@ -1075,7 +1087,7 @@
             <item>"مسلسل  عمر"</item>
     -->
 
-    <!-- TODO (9) add your program name in the list that appear in the home screen and MUST match the arabic name in TODO (3) -->
+    <!-- TODO (9) LAST STEP: add your program name in the list that appear in the home screen and MUST match the arabic name in TODO (3) -->
     <string-array name="programs_names">
         <item>            — مصطفى حسنى — </item>
         <item>رحلة حياة</item>
@@ -1097,6 +1109,7 @@
         <item>خواطر 11</item>
         <item>خواطر 10</item>
         <item>            — عمرو خالد —</item>
+        <item>ذكريات حاج</item>
         <item>فاذكروني</item>
         <item>السيرة حياة</item>
         <item>نبي الرحمة والتسامح</item>
