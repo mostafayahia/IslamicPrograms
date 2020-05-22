@@ -43,6 +43,7 @@ public class MyHelper {
     // STRINGS.XML -> programNames
     // Arabic programs names' variables
     // TODO (3) add program name in arabic and should match the arabic name in TODO (2)
+    private static final String PROGRAM_NAME_AR_MEDITATIONS_IN_QURAN = "تأملات في كتاب الله";
     private static final String PROGRAM_NAME_AR_PILGRIM_MEMORIES = "ذكريات حاج";
     private static final String PROGRAM_NAME_AR_REMEMBER_ME = "فاذكروني";
     private static final String PROGRAM_NAME_AR_LIFE_JOURNEY = "رحلة حياة";
@@ -74,6 +75,7 @@ public class MyHelper {
     // ===== DON'T MODIFY ====
     // English programs names' variables
     // TODO (4) add program name in english (PUT UNDERSCORE AT THE END OF THE NAME)
+    static final String PROGRAM_NAME_EN_MEDITATIONS_IN_QURAN = "meditations_in_quran_";
     static final String PROGRAM_NAME_EN_PILGRIM_MEMORIES = "pilgrim_memories_";
     static final String PROGRAM_NAME_EN_LIFE_JOURNEY = "life_journey_";
     static final String PROGRAM_NAME_EN_REMEMBER_ME = "remember_me_";
@@ -138,6 +140,7 @@ public class MyHelper {
      */
     private static void fillProgramSectionMap() {
         // TODO (5) add the program to a certain section
+        PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_MEDITATIONS_IN_QURAN, SECTION_NAME_EN_MOSTAFA_HOSNY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_PILGRIM_MEMORIES, SECTION_NAME_EN_AMR_KHALED);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_REMEMBER_ME, SECTION_NAME_EN_AMR_KHALED);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_LIFE_JOURNEY, SECTION_NAME_EN_MOSTAFA_HOSNY);
@@ -173,6 +176,7 @@ public class MyHelper {
      */
     private static void fillProgramArEnMap() {
         // TODO (6) map the arabic and english name of the program
+        PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_MEDITATIONS_IN_QURAN, PROGRAM_NAME_EN_MEDITATIONS_IN_QURAN);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_PILGRIM_MEMORIES, PROGRAM_NAME_EN_PILGRIM_MEMORIES);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_REMEMBER_ME, PROGRAM_NAME_EN_REMEMBER_ME);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_LIFE_JOURNEY, PROGRAM_NAME_EN_LIFE_JOURNEY);
@@ -209,6 +213,36 @@ public class MyHelper {
      */
     static String[] getEpisodesLinks(String arProgramName) {
         // TODO (8) add the episodes' links of the program in this method
+        if (arProgramName.equals(PROGRAM_NAME_AR_MEDITATIONS_IN_QURAN))
+            return new String[]{
+                    "https://www.youtube.com/watch?v=UOuMJElUiqg&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=8&t=0s",
+                    "https://www.youtube.com/watch?v=U_R13yDUmTg&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=3&t=0s",
+                    "https://www.youtube.com/watch?v=-bjm52tW9zs&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=13&t=0s",
+                    "https://www.youtube.com/watch?v=2yUbqjf7lnQ&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=16&t=0s",
+                    "https://www.youtube.com/watch?v=0ip3_vnaNeA&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=15&t=0s",
+                    "https://www.youtube.com/watch?v=1IuiALkbZq4&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=2&t=0s",
+                    "https://www.youtube.com/watch?v=9RzN3adNn1U&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=4&t=0s",
+                    "https://www.youtube.com/watch?v=qFgmP0kpcww&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=20&t=0s",
+                    "https://www.youtube.com/watch?v=77A4gcoSjCg&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=25&t=0s",
+                    "https://www.youtube.com/watch?v=nhgGSf8-lsk&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=24&t=0s",
+                    "https://www.youtube.com/watch?v=3yldZU-bPRw&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=18&t=0s",
+                    "https://www.youtube.com/watch?v=NnLctvy9iEk&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=7&t=0s",
+                    "https://www.youtube.com/watch?v=bOhY4WFAjhw&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=17&t=0s",
+                    "https://www.youtube.com/watch?v=DK7tiM22rA0&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=5&t=0s",
+                    "https://www.youtube.com/watch?v=2xxGN6zNXJ4&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=27&t=0s",
+                    "https://www.youtube.com/watch?v=9lanK9IIgDI&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=21&t=0s",
+                    "https://www.youtube.com/watch?v=_nQC2-fUlyA&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=19&t=0s",
+                    "https://www.youtube.com/watch?v=4v7FTUt5r_0&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=11&t=0s",
+                    "https://www.youtube.com/watch?v=T6pkj4qX0hc&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=22&t=0s",
+                    "https://www.youtube.com/watch?v=miBFPU-KAKY&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=6&t=0s",
+                    "https://www.youtube.com/watch?v=ephLLl9JJzA&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=23&t=0s",
+                    "https://www.youtube.com/watch?v=o1ykTUmFMDY&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=12&t=0s",
+                    "https://www.youtube.com/watch?v=S63QrM_JJdg&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=26&t=0s",
+                    "https://www.youtube.com/watch?v=m-x2H7joV34&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=10&t=0s",
+                    "https://www.youtube.com/watch?v=6xUIR0piCxQ&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=14&t=0s",
+                    "https://www.youtube.com/watch?v=N0yb16rWXWE&list=PLiJggHtOlnN29jSoLzLEI_jJIbyjaSfRV&index=9&t=0s"
+
+            };
         if (arProgramName.equals(PROGRAM_NAME_AR_PILGRIM_MEMORIES))
             return new String[]{
                     "https://www.youtube.com/watch?v=o7Ko9b17gLs",
@@ -1253,6 +1287,8 @@ public class MyHelper {
      */
     static Integer getArrResID(String arProgramName) {
         // TODO (7) this method should return correct array reference for arabic name of the program
+        if (arProgramName.equals(PROGRAM_NAME_AR_MEDITATIONS_IN_QURAN))
+            return R.array.meditations_in_quran;
         if (arProgramName.equals(PROGRAM_NAME_AR_PILGRIM_MEMORIES))
             return R.array.pilgrim_memories;
         if (arProgramName.equals(PROGRAM_NAME_AR_REMEMBER_ME))

@@ -780,6 +780,36 @@
             System.out.println("<item>" + i + "</item>");
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
+    <string-array name="meditations_in_quran">
+        <item>             — تأملات في كتاب الله —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+        <item>الحلقة 7</item>
+        <item>الحلقة 8</item>
+        <item>الحلقة 9</item>
+        <item>الحلقة 10</item>
+        <item>الحلقة 11</item>
+        <item>الحلقة 12</item>
+        <item>الحلقة 13</item>
+        <item>الحلقة 14</item>
+        <item>الحلقة 15</item>
+        <item>الحلقة 16</item>
+        <item>الحلقة 17</item>
+        <item>الحلقة 18</item>
+        <item>الحلقة 19</item>
+        <item>الحلقة 20</item>
+        <item>الحلقة 21</item>
+        <item>الحلقة 22</item>
+        <item>الحلقة 23</item>
+        <item>الحلقة 24</item>
+        <item>الحلقة 25</item>
+        <item>الحلقة 26</item>
+    </string-array>
+
     <string-array name="pilgrim_memories">
         <item>             — ذكريات حاج —</item>
         <item>1 - كيف يختار اللَّه عباده للحج</item>
@@ -1090,6 +1120,7 @@
     <!-- TODO (9) LAST STEP: add your program name in the list that appear in the home screen and MUST match the arabic name in TODO (3) -->
     <string-array name="programs_names">
         <item>            — مصطفى حسنى — </item>
+        <item>تأملات في كتاب الله</item>
         <item>رحلة حياة</item>
         <item>حائر</item>
         <item>رسالة من الله</item>
