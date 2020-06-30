@@ -780,6 +780,68 @@
             System.out.println("<item>" + i + "</item>");
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
+    <string-array name="on_temptations_doors">
+        <item>             — على أبواب الفتن —</item>
+        <item>1 - الحلقة الأولى</item>
+        <item>2 - قتل المشاعر بين الزوجين</item>
+        <item>3 - الأبتلاءات المتتالية</item>
+        <item>4 - التضاؤل</item>
+        <item>5 - العشيقة</item>
+        <item>6 - الزميل المهتم</item>
+        <item>7 - الكفران بطيبة القلب</item>
+        <item>8 - الزهد في الصلاة</item>
+        <item>9 - مشاهدة الإباحية</item>
+        <item>10 - قسوة الأهل</item>
+        <item>11 - الإحساس الدائم بالمؤامرة</item>
+        <item>12 - الانتقائية في الدين</item>
+        <item>13 - الشك في وعود الله</item>
+        <item>14 - الهلع من الموت</item>
+        <item>15 - تأخر الزواج</item>
+        <item>16 - فلتات اللسان</item>
+        <item>17 - الحب بدون زواج</item>
+        <item>18 - تضخم الذات</item>
+        <item>19 - التخلي عن الصدق</item>
+        <item>20 - النفسية الشحيحة</item>
+        <item>21 - الخوف الزائد من المرض</item>
+        <item>22 - الطموح السريع</item>
+        <item>23 - الزهد في صلة الرحم</item>
+        <item>24 - القرش الحرام</item>
+        <item>25 - وجود الشر</item>
+        <item>26 - الجنة</item>
+        <item>27 - السنة والتراث</item>
+        <item>28 - علامات الساعة الصغرى</item>
+        <item>29 - أهم ما قيل في الفتن</item>
+        <item>30 - أهم ما قيل في الفتن 2</item>
+    </string-array>
+    <string-array name="as_you_see_HIM">
+        <item>             — كأنك تراه —</item>
+        <item>1 - رحلة روحية</item>
+        <item>2 - لا إله إلا ألله</item>
+        <item>3 - الصمد</item>
+        <item>4 - الوكيل</item>
+        <item>5 - الفتاح</item>
+        <item>6 - القريب</item>
+        <item>7 - القيوم</item>
+        <item>8 - الودود</item>
+        <item>9 - الرحيم</item>
+        <item>10 - الجليل</item>
+        <item>11 - البديع</item>
+        <item>12 - الشكور</item>
+        <item>13 - الحي</item>
+        <item>14 - النور</item>
+        <item>15 - الستار</item>
+        <item>16 - الواسع</item>
+        <item>17 - الحميد</item>
+        <item>18 - الجبار</item>
+        <item>19 - الوهاب</item>
+        <item>20 - الولي</item>
+        <item>21 - الحليم</item>
+        <item>22 - السلام</item>
+        <item>23 - القابض الباسط</item>
+        <item>24 - المجيب</item>
+        <item>25 - الهادي</item>
+        <item>26 - العفو</item>
+    </string-array>
     <string-array name="meditations_in_quran">
         <item>             — تأملات في كتاب الله —</item>
         <item>الحلقة 1</item>
@@ -1120,6 +1182,7 @@
     <!-- TODO (9) LAST STEP: add your program name in the list that appear in the home screen and MUST match the arabic name in TODO (3) -->
     <string-array name="programs_names">
         <item>            — مصطفى حسنى — </item>
+        <item>على أبواب الفتن</item>
         <item>تأملات في كتاب الله</item>
         <item>رحلة حياة</item>
         <item>حائر</item>
@@ -1140,6 +1203,7 @@
         <item>خواطر 11</item>
         <item>خواطر 10</item>
         <item>            — عمرو خالد —</item>
+        <item>كأنك تراه</item>
         <item>ذكريات حاج</item>
         <item>فاذكروني</item>
         <item>السيرة حياة</item>
