@@ -780,6 +780,58 @@
             System.out.println("<item>" + i + "</item>");
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
+    <string-array name="thoughts_sura_aal_e_imran">
+        <item>             — سورة آل عمران —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+        <item>الحلقة 7</item>
+        <item>الحلقة 8</item>
+        <item>الحلقة 9</item>
+        <item>الحلقة 10</item>
+        <item>الحلقة 11</item>
+        <item>الحلقة 12</item>
+        <item>الحلقة 13</item>
+        <item>الحلقة 14</item>
+        <item>الحلقة 15</item>
+        <item>الحلقة 16</item>
+        <item>الحلقة 17</item>
+        <item>الحلقة 18</item>
+        <item>الحلقة 19</item>
+        <item>الحلقة 20</item>
+        <item>الحلقة 21</item>
+        <item>الحلقة 22</item>
+        <item>الحلقة 23</item>
+        <item>الحلقة 24</item>
+        <item>الحلقة 25</item>
+        <item>الحلقة 26</item>
+        <item>الحلقة 27</item>
+        <item>الحلقة 28</item>
+        <item>الحلقة 29</item>
+        <item>الحلقة 30</item>
+        <item>الحلقة 31</item>
+        <item>الحلقة 32</item>
+        <item>الحلقة 33</item>
+        <item>الحلقة 34</item>
+        <item>الحلقة 35</item>
+        <item>الحلقة 36</item>
+        <item>الحلقة 37</item>
+        <item>الحلقة 38</item>
+        <item>الحلقة 39</item>
+        <item>الحلقة 40</item>
+        <item>الحلقة 41</item>
+        <item>الحلقة 42</item>
+        <item>الحلقة 43</item>
+        <item>الحلقة 44</item>
+        <item>الحلقة 45</item>
+        <item>الحلقة 46</item>
+        <item>الحلقة 47</item>
+        <item>الحلقة 48</item>
+    </string-array>
+
     <string-array name="on_temptations_doors">
         <item>             — على أبواب الفتن —</item>
         <item>1 - الحلقة الأولى</item>
@@ -1193,6 +1245,7 @@
         <item>إنسان جديد</item>
         <item>عيش اللحظة</item>
         <item>            — خواطر الشعراوى —</item>
+        <item>سورة آل عمران</item>
         <item>سورة التوبة</item>
         <item>سورة يوسف</item>
         <item>سورة الكهف</item>
