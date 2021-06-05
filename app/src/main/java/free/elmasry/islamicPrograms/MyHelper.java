@@ -43,6 +43,8 @@ public class MyHelper {
     // STRINGS.XML -> programNames
     // Arabic programs names' variables
     // TODO (3) add program name in arabic and should match the arabic name in TODO (2)
+    private static final String PROGRAM_NAME_AR_PRICE = "الثمن";
+    private static final String PROGRAM_NAME_AR_SOUL = "منازل الروح";
     private static final String PROGRAM_NAME_AR_THOUGHTS_SURA_AAL_E_IMRAN = "سورة آل عمران";
     private static final String PROGRAM_NAME_AR_AS_YOU_SEE_HIM = "كأنك تراه";
     private static final String PROGRAM_NAME_AR_ON_TEMPTATIONS_DOORS = "على أبواب الفتن";
@@ -78,6 +80,8 @@ public class MyHelper {
     // ===== DON'T MODIFY ====
     // English programs names' variables
     // TODO (4) add program name in english (PUT UNDERSCORE AT THE END OF THE NAME)
+    static final String PROGRAM_NAME_EN_PRICE = "price_";
+    static final String PROGRAM_NAME_EN_SOUL = "soul_";
     static final String PROGRAM_NAME_EN_THOUGHTS_AAL_E_IMRAN = "thoughts_aal_e_imran_";
     static final String PROGRAM_NAME_EN_AS_YOU_SEE_HIM = "as_you_see_HIM_";
     static final String PROGRAM_NAME_EN_ON_TEMPTATIONS_DOORS = "on_temptations_doors_";
@@ -146,6 +150,8 @@ public class MyHelper {
      */
     private static void fillProgramSectionMap() {
         // TODO (5) add the program to a certain section
+        PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_PRICE, SECTION_NAME_EN_MOSTAFA_HOSNY);
+        PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_SOUL, SECTION_NAME_EN_AMR_KHALED);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_THOUGHTS_SURA_AAL_E_IMRAN, SECTION_NAME_EN_ALSHAARAWY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_AS_YOU_SEE_HIM, SECTION_NAME_EN_AMR_KHALED);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_ON_TEMPTATIONS_DOORS, SECTION_NAME_EN_MOSTAFA_HOSNY);
@@ -185,6 +191,8 @@ public class MyHelper {
      */
     private static void fillProgramArEnMap() {
         // TODO (6) map the arabic and english name of the program
+        PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_PRICE, PROGRAM_NAME_EN_PRICE);
+        PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_SOUL, PROGRAM_NAME_EN_SOUL);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_THOUGHTS_SURA_AAL_E_IMRAN, PROGRAM_NAME_EN_THOUGHTS_AAL_E_IMRAN);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_AS_YOU_SEE_HIM, PROGRAM_NAME_EN_AS_YOU_SEE_HIM);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_ON_TEMPTATIONS_DOORS, PROGRAM_NAME_EN_ON_TEMPTATIONS_DOORS);
@@ -225,6 +233,70 @@ public class MyHelper {
      */
     static String[] getEpisodesLinks(String arProgramName) {
         // TODO (8) add the episodes' links of the program in this method
+        if (arProgramName.equals(PROGRAM_NAME_AR_SOUL))
+            return new String[]{
+                    "https://www.youtube.com/watch?v=d3o67gSWBZQ&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=1",
+                    "https://www.youtube.com/watch?v=K50WjGiM1EM&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=2",
+                    "https://www.youtube.com/watch?v=xHu3FA7Hzb0&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=3",
+                    "https://www.youtube.com/watch?v=TDj16oCfNc8&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=4",
+                    "https://www.youtube.com/watch?v=S3FHxQITnbY&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=5",
+                    "https://www.youtube.com/watch?v=kbqAFL0hEvk&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=6",
+                    "https://www.youtube.com/watch?v=b6hCN22aZsU&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=7",
+                    "https://www.youtube.com/watch?v=BTsemeuVQ3M&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=8",
+                    "https://www.youtube.com/watch?v=IEvp_mVUAc4&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=9",
+                    "https://www.youtube.com/watch?v=Id8vxXd-hi4&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=10",
+                    "https://www.youtube.com/watch?v=0U0PFENAoeE&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=11",
+                    "https://www.youtube.com/watch?v=8zCjl3ItiAE&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=12",
+                    "https://www.youtube.com/watch?v=oKXlpBJSrWA&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=13",
+                    "https://www.youtube.com/watch?v=MD-8HR_RWbE&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=14",
+                    "https://www.youtube.com/watch?v=xJr1pphMzc8&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=15",
+                    "https://www.youtube.com/watch?v=QmrbGe_pD74&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=16",
+                    "https://www.youtube.com/watch?v=f0inuBqqgLM&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=17",
+                    "https://www.youtube.com/watch?v=YukjKYezbgY&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=18",
+                    "https://www.youtube.com/watch?v=spN9XQkF2dI&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=19",
+                    "https://www.youtube.com/watch?v=NJLBDzdA3PQ&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=20",
+                    "https://www.youtube.com/watch?v=Ew7h8Nda0yQ&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=21",
+                    "https://www.youtube.com/watch?v=ovJNPIzHUa0&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=22",
+                    "https://www.youtube.com/watch?v=o9KvOjoxwRs&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=23",
+                    "https://www.youtube.com/watch?v=A8MMyn0m2o4&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=24",
+                    "https://www.youtube.com/watch?v=YThRtqVvmWw&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=25",
+                    "https://www.youtube.com/watch?v=KXJooS7jYfo&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=26",
+                    "https://www.youtube.com/watch?v=246HNvZiDLY&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=27",
+                    "https://www.youtube.com/watch?v=qsP81NLCdmU&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=28"
+            };
+        if (arProgramName.equals(PROGRAM_NAME_AR_PRICE))
+            return new String[]{
+                    "https://www.youtube.com/watch?v=SRZuBqYhn3s&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=3",
+                    "https://www.youtube.com/watch?v=oXTv1vi4DTg&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=4",
+                    "https://www.youtube.com/watch?v=Zd-rGr8OpuE&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=5",
+                    "https://www.youtube.com/watch?v=swx261S53Nw&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=6",
+                    "https://www.youtube.com/watch?v=uJiEgwG_0ps&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=7",
+                    "https://www.youtube.com/watch?v=2tm17nOJAK0&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=8",
+                    "https://www.youtube.com/watch?v=qDI7MEZ8BC8&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=9",
+                    "https://www.youtube.com/watch?v=D6Ucifvr9Pc&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=10",
+                    "https://www.youtube.com/watch?v=tfJWy8j-d5E&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=11",
+                    "https://www.youtube.com/watch?v=5sfk5jGeqdM&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=12",
+                    "https://www.youtube.com/watch?v=hRR0Ty18Ku8&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=13",
+                    "https://www.youtube.com/watch?v=8CUJFqck_88&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=14",
+                    "https://www.youtube.com/watch?v=U4UBwVZ7Gqw&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=15",
+                    "https://www.youtube.com/watch?v=3m58WOLso6Y&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=16",
+                    "https://www.youtube.com/watch?v=q5ba9Tg4l88&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=17",
+                    "https://www.youtube.com/watch?v=aICh3LkDrNY&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=18",
+                    "https://www.youtube.com/watch?v=udYWqPs1wKA&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=19",
+                    "https://www.youtube.com/watch?v=PJS3i-gmL_0&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=20",
+                    "https://www.youtube.com/watch?v=NTdom4bPzaA&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=21",
+                    "https://www.youtube.com/watch?v=-Vks2yhoVSA&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=22",
+                    "https://www.youtube.com/watch?v=M8uahTrbuKg&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=23",
+                    "https://www.youtube.com/watch?v=MF68X-2PVOU&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=24",
+                    "https://www.youtube.com/watch?v=RvSkKuAcIhE&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=25",
+                    "https://www.youtube.com/watch?v=OPjhdUiWLvA&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=26",
+                    "https://www.youtube.com/watch?v=PJ_YrZtF4lI&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=27",
+                    "https://www.youtube.com/watch?v=WjhWUAEQHeo&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=28",
+                    "https://www.youtube.com/watch?v=y2CvGCmD4FQ&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=29",
+                    "https://www.youtube.com/watch?v=d4i2Rpgq10Q&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=30",
+                    "https://www.youtube.com/watch?v=8DHDX3-_dSo&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=31",
+                    "https://www.youtube.com/watch?v=BpJb3VMzAF0&list=PLiJggHtOlnN1rHTBCuoBvxAwbvVbX6qSM&index=32"
+            };
         if (arProgramName.equals(PROGRAM_NAME_AR_THOUGHTS_SURA_AAL_E_IMRAN))
             return new String[]{
                     "https://www.youtube.com/watch?v=nG6py_-P3fM&list=PLU0wEVX-7pNFt9_RCEpK0Gma18GjGH3Cz&index=2&t=0s",
@@ -1414,6 +1486,10 @@ public class MyHelper {
      */
     static Integer getArrResID(String arProgramName) {
         // TODO (7) this method should return correct array reference for arabic name of the program
+        if (arProgramName.equals(PROGRAM_NAME_AR_PRICE))
+            return R.array.price;
+        if (arProgramName.equals(PROGRAM_NAME_AR_SOUL))
+            return R.array.soul;
         if (arProgramName.equals(PROGRAM_NAME_AR_THOUGHTS_SURA_AAL_E_IMRAN))
             return R.array.thoughts_sura_aal_e_imran;
         if (arProgramName.equals(PROGRAM_NAME_AR_AS_YOU_SEE_HIM))

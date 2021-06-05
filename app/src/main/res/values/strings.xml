@@ -780,6 +780,70 @@
             System.out.println("<item>" + i + "</item>");
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
+    <string-array name="price">
+        <item>             — الثمن —</item>
+        <item>1 - الثمن</item>
+        <item>2 - الصداقة</item>
+        <item>3 - بقاء الحب</item>
+        <item>4 - السلام النفسي</item>
+        <item>5 - امتلاك الدنيا</item>
+        <item>6 - حب العبادة</item>
+        <item>7 - استرداد قيمة نفسي</item>
+        <item>8 - القبر المنور</item>
+        <item>9 - سعادة الزوج</item>
+        <item>10 - سعادة الزوجة</item>
+        <item>11 - تيسير الرزق</item>
+        <item>12 - الاستقامة وحسن الخاتمة</item>
+        <item>13 - كسب احترام الناس</item>
+        <item>14 - الأمومة</item>
+        <item>15 - الأبوة</item>
+        <item>16 - الرضا</item>
+        <item>17 - العفة</item>
+        <item>18 - التعلق برسول الله</item>
+        <item>19 - حماية ثقتي بنفسي</item>
+        <item>20 - حماية القلب الطيب</item>
+        <item>21 - شرف الموظف</item>
+        <item>22 - الاستمتاع بالقرب من الله</item>
+        <item>23 - الحساب اليسير</item>
+        <item>24 - سلامة القلب من الحقد</item>
+        <item>25 - حماية بر الوالدين</item>
+        <item>26 - ظل الرحمن</item>
+        <item>27 - الاستقرار بعد الطلاق</item>
+        <item>28 - استمرار الكفاح</item>
+        <item>29 - التأثير فيمن حولي</item>
+        <item>30 - العقل الواعي</item>
+    </string-array>
+    <string-array name="soul">
+        <item>             — منازل الروح —</item>
+        <item>1 - منازل الروح</item>
+        <item>2 - منزلة التقوى</item>
+        <item>3 - ازاى تتقى الله</item>
+        <item>4 - العلاقة بين التقوى وحسن الخلق</item>
+        <item>5 - منزلة اليقين</item>
+        <item>6 - اليقين وزيادة الرزق والطمأنينة</item>
+        <item>7 - اليقين وحب العطاء وجبر الخواطر</item>
+        <item>8 - منزلة التوكل</item>
+        <item>9 - التوكل سر قوتك</item>
+        <item>10 - التوكل والأمل</item>
+        <item>11 - منزلة التسليم</item>
+        <item>12 - التسليم وتقليل الآلام</item>
+        <item>13 - لا حول ولا قوة إلا بالله</item>
+        <item>14 - تخرج شخص ظلمك من حياتك</item>
+        <item>15 - منزلة الرضا</item>
+        <item>16 - الرضا والسعادة</item>
+        <item>17 - سر العيش بالرضا</item>
+        <item>18 - دليل المكروبين</item>
+        <item>19 - منزلة العبودية</item>
+        <item>20 - قصص ومواقف مؤثرة</item>
+        <item>21 - التذلل فى الدعاء والعبادة</item>
+        <item>22 - أعظم طريقة للعبادة</item>
+        <item>23 - معانى مؤثرة</item>
+        <item>24 - معانى تخشع لها القلوب</item>
+        <item>25 -العلاقة بين محبة الله ومحبة الناس</item>
+        <item>26 - مفتاح ليلة القدر</item>
+        <item>بانوراما البرنامج ج1</item>
+        <item>بانوراما البرنامج ج2</item>
+    </string-array>
     <string-array name="thoughts_sura_aal_e_imran">
         <item>             — سورة آل عمران —</item>
         <item>الحلقة 1</item>
@@ -1234,6 +1298,7 @@
     <!-- TODO (9) LAST STEP: add your program name in the list that appear in the home screen and MUST match the arabic name in TODO (3) -->
     <string-array name="programs_names">
         <item>            — مصطفى حسنى — </item>
+        <item>الثمن</item>
         <item>على أبواب الفتن</item>
         <item>تأملات في كتاب الله</item>
         <item>رحلة حياة</item>
@@ -1256,6 +1321,7 @@
         <item>خواطر 11</item>
         <item>خواطر 10</item>
         <item>            — عمرو خالد —</item>
+        <item>منازل الروح</item>
         <item>كأنك تراه</item>
         <item>ذكريات حاج</item>
         <item>فاذكروني</item>
