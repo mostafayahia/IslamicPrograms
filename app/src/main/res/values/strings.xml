@@ -780,6 +780,16 @@
             System.out.println("<item>" + i + "</item>");
     -->
     <!-- TODO (2) add episodes' names in arabic here -->
+    <string-array name="thoughts_sura_maryam">
+        <item>             — سورة مريم —</item>
+        <item>الحلقة 1</item>
+        <item>الحلقة 2</item>
+        <item>الحلقة 3</item>
+        <item>الحلقة 4</item>
+        <item>الحلقة 5</item>
+        <item>الحلقة 6</item>
+    </string-array>
+
     <string-array name="price">
         <item>             — الثمن —</item>
         <item>1 - الثمن</item>
@@ -1314,6 +1324,7 @@
         <item>سورة التوبة</item>
         <item>سورة يوسف</item>
         <item>سورة الكهف</item>
+        <item>سورة مريم</item>
         <item>سورة النور</item>
         <item>سورة يس</item>
         <item>سورة الدخان</item>

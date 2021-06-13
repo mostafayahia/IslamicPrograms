@@ -43,6 +43,7 @@ public class MyHelper {
     // STRINGS.XML -> programNames
     // Arabic programs names' variables
     // TODO (3) add program name in arabic and should match the arabic name in TODO (2)
+    private static final String PROGRAM_NAME_AR_SURA_MARYAM = "سورة مريم";
     private static final String PROGRAM_NAME_AR_PRICE = "الثمن";
     private static final String PROGRAM_NAME_AR_SOUL = "منازل الروح";
     private static final String PROGRAM_NAME_AR_THOUGHTS_SURA_AAL_E_IMRAN = "سورة آل عمران";
@@ -80,6 +81,7 @@ public class MyHelper {
     // ===== DON'T MODIFY ====
     // English programs names' variables
     // TODO (4) add program name in english (PUT UNDERSCORE AT THE END OF THE NAME)
+    static final String PROGRAM_NAME_EN_SURA_MARYAM = "thoughts_sura_maryam_";
     static final String PROGRAM_NAME_EN_PRICE = "price_";
     static final String PROGRAM_NAME_EN_SOUL = "soul_";
     static final String PROGRAM_NAME_EN_THOUGHTS_AAL_E_IMRAN = "thoughts_aal_e_imran_";
@@ -150,6 +152,7 @@ public class MyHelper {
      */
     private static void fillProgramSectionMap() {
         // TODO (5) add the program to a certain section
+        PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_SURA_MARYAM, SECTION_NAME_EN_ALSHAARAWY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_PRICE, SECTION_NAME_EN_MOSTAFA_HOSNY);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_SOUL, SECTION_NAME_EN_AMR_KHALED);
         PROGRAM_SECTION_MAP.put(PROGRAM_NAME_AR_THOUGHTS_SURA_AAL_E_IMRAN, SECTION_NAME_EN_ALSHAARAWY);
@@ -191,6 +194,7 @@ public class MyHelper {
      */
     private static void fillProgramArEnMap() {
         // TODO (6) map the arabic and english name of the program
+        PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_SURA_MARYAM, PROGRAM_NAME_EN_SURA_MARYAM);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_PRICE, PROGRAM_NAME_EN_PRICE);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_SOUL, PROGRAM_NAME_EN_SOUL);
         PROGRAM_AR_EN_MAP.put(PROGRAM_NAME_AR_THOUGHTS_SURA_AAL_E_IMRAN, PROGRAM_NAME_EN_THOUGHTS_AAL_E_IMRAN);
@@ -233,6 +237,15 @@ public class MyHelper {
      */
     static String[] getEpisodesLinks(String arProgramName) {
         // TODO (8) add the episodes' links of the program in this method
+        if (arProgramName.equals(PROGRAM_NAME_AR_SURA_MARYAM))
+            return new String[]{
+                    "https://www.youtube.com/watch?v=lEG1un6H7xY&list=PL555D23C5FDA7F3FB&index=1",
+                    "https://www.youtube.com/watch?v=DKGG5WNfifk&list=PL555D23C5FDA7F3FB&index=2",
+                    "https://www.youtube.com/watch?v=p9MaaZ8tQcc&list=PL555D23C5FDA7F3FB&index=3",
+                    "https://www.youtube.com/watch?v=2FD6bDrcplA&list=PL555D23C5FDA7F3FB&index=4",
+                    "https://www.youtube.com/watch?v=eQYAOW9SVW4&list=PL555D23C5FDA7F3FB&index=5",
+                    "https://www.youtube.com/watch?v=lWXnngWLi6I&list=PL555D23C5FDA7F3FB&index=6"
+            };
         if (arProgramName.equals(PROGRAM_NAME_AR_SOUL))
             return new String[]{
                     "https://www.youtube.com/watch?v=d3o67gSWBZQ&list=PLhbs8A5De9zSvoxMrljw59xlkZXPWTB46&index=1",
@@ -1486,6 +1499,8 @@ public class MyHelper {
      */
     static Integer getArrResID(String arProgramName) {
         // TODO (7) this method should return correct array reference for arabic name of the program
+        if (arProgramName.equals(PROGRAM_NAME_AR_SURA_MARYAM))
+            return R.array.thoughts_sura_maryam;
         if (arProgramName.equals(PROGRAM_NAME_AR_PRICE))
             return R.array.price;
         if (arProgramName.equals(PROGRAM_NAME_AR_SOUL))
